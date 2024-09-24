@@ -14,3 +14,11 @@ features:
   details: 以Java开发为背景，全栈开发，DevOps
 footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
+
+## pwa
+
+为了演示 PWA 弹窗效果的内容
+
+主要安装vuepress
+
+yarn add -D vuepress 

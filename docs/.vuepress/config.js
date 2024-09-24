@@ -34,6 +34,18 @@ module.exports = {
                     buttonText: "刷新"
                 }
             }
+        ],
+        [
+            '@vssue/vuepress-plugin-vssue', {
+            // 设置 `platform` 而不是 `api`
+            platform: 'github-v4',
+            // 其他的 Vssue 配置
+            owner: 'hmh521',
+            repo: 'docs',
+            clientId: 'Ov23liZObu7XRBRplwA0',
+            clientSecret: 'c5e51ce69d0b1c0723b4c98892f81b9795e95ad9',
+            autoCreateIssue: true
+        },
         ]
     ],
     themeConfig: {
