@@ -1,0 +1,29 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "第一次创建vuepress 加油！",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmh521/docs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hmh521/docs/issues"
+  },
+  "homepage": "https://github.com/hmh521/docs#readme",
+  "dependencies": {
+    "moment": "^2.30.1",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.9.10"
+  }
+}
