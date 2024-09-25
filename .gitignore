@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # 隐藏私密信息
-secret.js
+.vuepress/public/config/secret.js
