@@ -103,6 +103,7 @@ dist
 # vuepress v2.x temp and cache directory
 .temp
 .cache
+.idea
 
 # Docusaurus cache and generated files
 .docusaurus
@@ -130,4 +131,11 @@ dist
 .pnp.*
 
 # 隐藏私密信息
-.vuepress/public/config/secret.js
+secret.js
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+rebel.xml
