@@ -22,3 +22,7 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 主要安装vuepress
 
 yarn add -D vuepress 
+
+<CountUp :endVal = "2024"/>
+
+<<< @/docs/.vuepress/components/CountUp.vue
