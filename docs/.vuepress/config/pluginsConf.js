@@ -39,4 +39,11 @@ module.exports = [
             id: secret.ga,
         },
     ],
+    ['@vuepress/medium-zoom',{
+        selector: 'img',
+    }],
+    ["vuepress-plugin-auto-sidebar", {
+        mode: "titlecase",
+        nav: true,
+    }]
 ]
