@@ -26,3 +26,7 @@ yarn add -D vuepress
 <CountUp :endVal = "2024"/>
 
 <<< @/docs/.vuepress/components/CountUp.vue
+
+<img :src="$withBase('/assets/img/logo.png')" alt="foo">
+
+![An image](/assets/img/logo.png)
