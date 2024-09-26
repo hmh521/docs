@@ -131,7 +131,7 @@ dist
 .pnp.*
 
 # 隐藏私密信息
-secret.js
+#secret.js
 
 ### IntelliJ IDEA ###
 .idea
