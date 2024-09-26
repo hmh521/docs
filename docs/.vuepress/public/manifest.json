@@ -1,0 +1,21 @@
+{
+  "name": "轻狂帅哥",
+  "short_name": "轻狂",
+  "start_url": "index.html",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "description": "轻狂帅哥的个人博客",
+  "theme_color": "#3eaf7c",
+  "icons": [
+    {
+      "sizes": "192x192",
+      "src": "/icons/android-chrome-192x192.png",
+      "type": "image/png"
+    },
+    {
+      "sizes": "512x512",
+      "src": "/icons/android-chrome-512x512.png",
+      "type": "image/png"
+    }
+  ]
+}
