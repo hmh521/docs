@@ -11,6 +11,11 @@ module.exports = {
         logo: '/assets/img/logo.png',
         nav: navConf,
         lastUpdated: '更新时间',
-    },
-
+        markdown: {
+            lineNumbers: true,
+            externalLinks: {
+                target: '_blank', rel: 'noopener noreferrer'
+            }
+        },
+    }
 }
