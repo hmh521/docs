@@ -17,5 +17,17 @@ module.exports = {
                 target: '_blank', rel: 'noopener noreferrer'
             }
         },
+        algolia: {
+            apiKey: 'c7ba53586e93bd9bd5664cae50421f8c',
+            indexName: 'hhxgg',
+            // 如果 Algolia 没有为你提供 `appId` ，使用 `BH4D9OD16A` 或者移除该配置项
+            appId: '0XPM8AE7J8',
+            // 搜索框显示的提示文本
+            placeholder: '搜索',
+            // 搜索框展开时显示的提示文本
+            aligoliaOptions: {
+                facetFilters: ""
+            }
+        }
     }
 }

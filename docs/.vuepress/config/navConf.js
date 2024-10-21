@@ -24,6 +24,7 @@ module.exports =  [
             text: '面试常问',
             items: [
                 { text: 'Redis', link: '/interview/redis/' },
+                { text: 'MySQL', link: '/interview/mysql/' },
             ]
         },
         // {
