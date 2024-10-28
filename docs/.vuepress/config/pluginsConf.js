@@ -43,7 +43,14 @@ module.exports = [
         selector: 'img',
     }],
     ["vuepress-plugin-auto-sidebar", {
-        mode: "titlecase",
-        nav: true,
+        title: {
+            mode: 'default',
+            map: {
+                '/about/': '关于我',
+            }
+        },
+        collapse: {
+            open: true
+        },
     }],
 ]

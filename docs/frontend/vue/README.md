@@ -5,21 +5,13 @@ title: Vue
 
 构建用户界面的<font style="color:#E8323C;">渐进式框架</font>
 
-**<font style="color:#E8323C;">vue CLI </font>**vue.js开发的标准工具
+vue CLI 是 vue.js开发的标准工具
 
-**<font style="color:#E8323C;"> </font>**
-
-```xml
+```shell
 cnpm install -g @vue/cli
 vue --version
 vue create vue-demo // 名字不能大写
 ```
-
-![](https://cdn.nlark.com/yuque/0/2022/png/33708367/1669394769477-09391ddd-597c-462a-bbf8-6653d827649a.png)
-
-![](https://cdn.nlark.com/yuque/0/2022/png/33708367/1669394939871-428ce38e-6d22-4317-994a-fa88c84f1110.png)![](https://cdn.nlark.com/yuque/0/2022/png/33708367/1669394958834-c77e4268-0883-4e3d-9084-9bf04836f33a.png)
-
-
 
 + 插件高亮 vue2 vetur，vue3 volar
 

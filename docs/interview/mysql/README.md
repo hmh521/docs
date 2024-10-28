@@ -29,7 +29,7 @@ log_queries_not_using_indexes = 1  # 记录未使用索引的查询，1 表示�
 ```sql
 explain select * from sys_user where id = 1;
 ```
-![img.png](../../.vuepress/public/assets/mysql/explain.png)
+![explain](../../.vuepress/public/assets/mysql/explain.png)
 * possible_keys: 可能使用的索引
 * key: 实际使用的索引
 * key_len: 索引占用的大小

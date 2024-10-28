@@ -33,6 +33,6 @@ module.exports =  [
         //         { text: 'Chinese', link: '/language/chinese/' }
         //     ]
         // },
-        { text: '关于我', link: '/about/' }
+        { text: '关于我', link: '/about/about'}
 ]
 
