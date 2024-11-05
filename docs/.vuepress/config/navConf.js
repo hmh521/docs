@@ -15,8 +15,40 @@ module.exports =  [
             ]
         },
         {
+            text: 'Spring框架',
+            items: [
+                { text: 'Spring', link: '/frame/spring/' },
+                { text: 'SpringMVC', link: '/frame/springmvc/' },
+                { text: 'SpringBoot', link: '/frame/springboot/' },
+                { text: 'SpringSecurity', link: '/frame/springsecurity/' },
+            ]
+        },
+        {
+            text: '数据库',
+            items: [
+                { text: 'MySQL', link: '/database/mysql/' },
+                { text: 'Oracle', link: '/database/oracle/' },
+            ]
+        },
+        {
+            text: '虚拟机',
+            items: [
+                { text: 'JVM', link: '/virtualMachine/jvm/' }
+            ]
+        },
+        {
+            text: '运维',
+            items: [
+                { text: 'Linux', link: '/devops/linux/' },
+                { text: 'Docker', link: '/devops/docker/' }
+            ]
+        },
+        {
             text: '常见问题',
             items: [
+                { text: 'git常见问题', link: '/commonproblem/git/' },
+                { text: 'java常见问题', link: '/commonproblem/java/' },
+                { text: 'mysql常见问题', link: '/commonproblem/mysql/' },
                 { text: 'vue常见问题', link: '/commonproblem/vue/' },
             ]
         },
