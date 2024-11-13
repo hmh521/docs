@@ -57,6 +57,9 @@ module.exports =  [
             items: [
                 { text: 'Redis', link: '/interview/redis/' },
                 { text: 'MySQL', link: '/interview/mysql/' },
+                { text: 'Spring', link: '/interview/spring/' },
+                { text: 'Mybatis', link: '/interview/mybatis/' },
+                { text: 'Springcloud', link: '/interview/springcloud/' },
             ]
         },
         // {
