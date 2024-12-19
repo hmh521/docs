@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JVM | 轻狂帅哥</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-Y62GB4CEGY" async="true"></script>
+    <script> window.dataLayer = window.dataLayer || [];        function gtag(){dataLayer.push(arguments);}        gtag('js', new Date());        gtag('config', 'G-Y62GB4CEGY');</script>
+    <link rel="icon" href="/assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <meta name="description" content="轻狂帅哥的笔记">
+    <meta names="author" content="轻狂帅哥">
+    <meta names="keywords" content="学习，成长，轻狂帅哥的笔记">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <link rel="preload" href="/assets/css/0.styles.25c602b9.css" as="style"><link rel="preload" href="/assets/js/app.c2492ba0.js" as="script"><link rel="preload" href="/assets/js/7.6855d7f5.js" as="script"><link rel="preload" href="/assets/js/1.3a8374e6.js" as="script"><link rel="preload" href="/assets/js/53.8168a589.js" as="script"><link rel="preload" href="/assets/js/22.15b12c38.js" as="script"><link rel="prefetch" href="/assets/js/11.1265b5f0.js"><link rel="prefetch" href="/assets/js/12.54e0ed27.js"><link rel="prefetch" href="/assets/js/13.5d7b1694.js"><link rel="prefetch" href="/assets/js/14.0fe1e3ae.js"><link rel="prefetch" href="/assets/js/15.eba1568d.js"><link rel="prefetch" href="/assets/js/16.78b9404e.js"><link rel="prefetch" href="/assets/js/17.6ab60dbd.js"><link rel="prefetch" href="/assets/js/18.8a31c3b4.js"><link rel="prefetch" href="/assets/js/19.8952cbc3.js"><link rel="prefetch" href="/assets/js/2.2f2477cb.js"><link rel="prefetch" href="/assets/js/20.8bc8271e.js"><link rel="prefetch" href="/assets/js/21.11541702.js"><link rel="prefetch" href="/assets/js/23.152108a2.js"><link rel="prefetch" href="/assets/js/24.8d878e40.js"><link rel="prefetch" href="/assets/js/25.823137af.js"><link rel="prefetch" href="/assets/js/26.f23185c9.js"><link rel="prefetch" href="/assets/js/27.43be4522.js"><link rel="prefetch" href="/assets/js/28.74ed9ffb.js"><link rel="prefetch" href="/assets/js/29.375d247b.js"><link rel="prefetch" href="/assets/js/3.9e2336a3.js"><link rel="prefetch" href="/assets/js/30.f0afd84f.js"><link rel="prefetch" href="/assets/js/31.6ae0e49e.js"><link rel="prefetch" href="/assets/js/32.d4e12b03.js"><link rel="prefetch" href="/assets/js/33.75ea2804.js"><link rel="prefetch" href="/assets/js/34.5890d495.js"><link rel="prefetch" href="/assets/js/35.ca26b966.js"><link rel="prefetch" href="/assets/js/36.e127d760.js"><link rel="prefetch" href="/assets/js/37.97de2b13.js"><link rel="prefetch" href="/assets/js/38.5db24d98.js"><link rel="prefetch" href="/assets/js/39.d9d174e0.js"><link rel="prefetch" href="/assets/js/4.e7d0eacc.js"><link rel="prefetch" href="/assets/js/40.aba65f1e.js"><link rel="prefetch" href="/assets/js/41.efe6c0c2.js"><link rel="prefetch" href="/assets/js/42.7803e2c3.js"><link rel="prefetch" href="/assets/js/43.c81a9343.js"><link rel="prefetch" href="/assets/js/44.560a8b57.js"><link rel="prefetch" href="/assets/js/45.799166cd.js"><link rel="prefetch" href="/assets/js/46.61a082bf.js"><link rel="prefetch" href="/assets/js/47.8989967c.js"><link rel="prefetch" href="/assets/js/48.c4f46e16.js"><link rel="prefetch" href="/assets/js/49.3ebd371b.js"><link rel="prefetch" href="/assets/js/5.947449fc.js"><link rel="prefetch" href="/assets/js/50.0b88538c.js"><link rel="prefetch" href="/assets/js/51.c8efff9d.js"><link rel="prefetch" href="/assets/js/52.d2410e99.js"><link rel="prefetch" href="/assets/js/54.9069084d.js"><link rel="prefetch" href="/assets/js/55.bfe16c8a.js"><link rel="prefetch" href="/assets/js/6.15ee44d5.js"><link rel="prefetch" href="/assets/js/8.c7e6bb89.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.94c2c2a5.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.25c602b9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/assets/img/logo.png" alt="轻狂帅哥" class="logo"> <span class="site-name can-hide">轻狂帅哥</span></a> <div class="links"><form id="search-form" role="search" class="algolia-search-wrapper search-box"><input id="algolia-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术笔记" class="dropdown-title"><span class="title">技术笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="技术笔记" class="mobile-dropdown-title"><span class="title">技术笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontend/html/" class="nav-link">
+  HTML &amp; CSS
+</a></li><li class="dropdown-subitem"><a href="/frontend/js/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-subitem"><a href="/frontend/vue/" class="nav-link">
+  Vue
+</a></li></ul></li><li class="dropdown-item"><h4>
+          后端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/backend/javase/" class="nav-link">
+  JavaSE
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Spring框架" class="dropdown-title"><span class="title">Spring框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="Spring框架" class="mobile-dropdown-title"><span class="title">Spring框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frame/spring/" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springmvc/" class="nav-link">
+  SpringMVC
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springboot/" class="nav-link">
+  SpringBoot
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springsecurity/" class="nav-link">
+  SpringSecurity
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/database/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-item"><!----> <a href="/database/oracle/" class="nav-link">
+  Oracle
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="虚拟机" class="dropdown-title"><span class="title">虚拟机</span> <span class="arrow down"></span></button> <button type="button" aria-label="虚拟机" class="mobile-dropdown-title"><span class="title">虚拟机</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/virtualMachine/jvm/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  JVM
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="运维" class="dropdown-title"><span class="title">运维</span> <span class="arrow down"></span></button> <button type="button" aria-label="运维" class="mobile-dropdown-title"><span class="title">运维</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/devops/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/devops/docker/" class="nav-link">
+  Docker
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常见问题" class="dropdown-title"><span class="title">常见问题</span> <span class="arrow down"></span></button> <button type="button" aria-label="常见问题" class="mobile-dropdown-title"><span class="title">常见问题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/commonproblem/git/" class="nav-link">
+  git常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/java/" class="nav-link">
+  java常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/mysql/" class="nav-link">
+  mysql常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/vue/" class="nav-link">
+  vue常见问题
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试常问" class="dropdown-title"><span class="title">面试常问</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试常问" class="mobile-dropdown-title"><span class="title">面试常问</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/interview/redis/" class="nav-link">
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/interview/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-item"><!----> <a href="/interview/spring/" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/interview/mybatis/" class="nav-link">
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/interview/springcloud/" class="nav-link">
+  Springcloud
+</a></li></ul></div></div><div class="nav-item"><a href="/about/about.html" class="nav-link">
+  关于我
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术笔记" class="dropdown-title"><span class="title">技术笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="技术笔记" class="mobile-dropdown-title"><span class="title">技术笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontend/html/" class="nav-link">
+  HTML &amp; CSS
+</a></li><li class="dropdown-subitem"><a href="/frontend/js/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-subitem"><a href="/frontend/vue/" class="nav-link">
+  Vue
+</a></li></ul></li><li class="dropdown-item"><h4>
+          后端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/backend/javase/" class="nav-link">
+  JavaSE
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Spring框架" class="dropdown-title"><span class="title">Spring框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="Spring框架" class="mobile-dropdown-title"><span class="title">Spring框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frame/spring/" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springmvc/" class="nav-link">
+  SpringMVC
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springboot/" class="nav-link">
+  SpringBoot
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springsecurity/" class="nav-link">
+  SpringSecurity
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/database/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-item"><!----> <a href="/database/oracle/" class="nav-link">
+  Oracle
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="虚拟机" class="dropdown-title"><span class="title">虚拟机</span> <span class="arrow down"></span></button> <button type="button" aria-label="虚拟机" class="mobile-dropdown-title"><span class="title">虚拟机</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/virtualMachine/jvm/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  JVM
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="运维" class="dropdown-title"><span class="title">运维</span> <span class="arrow down"></span></button> <button type="button" aria-label="运维" class="mobile-dropdown-title"><span class="title">运维</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/devops/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/devops/docker/" class="nav-link">
+  Docker
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常见问题" class="dropdown-title"><span class="title">常见问题</span> <span class="arrow down"></span></button> <button type="button" aria-label="常见问题" class="mobile-dropdown-title"><span class="title">常见问题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/commonproblem/git/" class="nav-link">
+  git常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/java/" class="nav-link">
+  java常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/mysql/" class="nav-link">
+  mysql常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/vue/" class="nav-link">
+  vue常见问题
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试常问" class="dropdown-title"><span class="title">面试常问</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试常问" class="mobile-dropdown-title"><span class="title">面试常问</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/interview/redis/" class="nav-link">
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/interview/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-item"><!----> <a href="/interview/spring/" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/interview/mybatis/" class="nav-link">
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/interview/springcloud/" class="nav-link">
+  Springcloud
+</a></li></ul></div></div><div class="nav-item"><a href="/about/about.html" class="nav-link">
+  关于我
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>jvm</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/virtualMachine/jvm/" aria-current="page" class="active sidebar-link">JVM</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#jvm位置" class="sidebar-link">JVM位置</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#jvm的体系结构" class="sidebar-link">JVM的体系结构</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#类加载器" class="sidebar-link">类加载器</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#双亲委派机制" class="sidebar-link">双亲委派机制</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#沙箱安全机制" class="sidebar-link">沙箱安全机制</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#native" class="sidebar-link">Native</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#pc寄存器" class="sidebar-link">PC寄存器</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#方法区" class="sidebar-link">方法区</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#栈" class="sidebar-link">栈</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#三种jvm" class="sidebar-link">三种JVM</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#堆" class="sidebar-link">堆</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#新生区-老年群-永久区" class="sidebar-link">新生区 老年群 永久区</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#字符串常量池在堆-运行时常量池在元空间" class="sidebar-link">字符串常量池在堆，运行时常量池在元空间</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#堆内存调优" class="sidebar-link">堆内存调优</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#gc垃圾回收" class="sidebar-link">GC垃圾回收</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#jmm-抽象的概念" class="sidebar-link">JMM(抽象的概念)</a></li><li class="sidebar-sub-header"><a href="/virtualMachine/jvm/#总结" class="sidebar-link">总结</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="jvm"><a href="#jvm" class="header-anchor">#</a> JVM</h1> <ul><li>请谈谈你对JVM的理解？ java8虚拟机和之前的变化更新？</li> <li>什么是OOM？什么是栈溢出StackOverFlowError? 怎么分析？</li> <li>JVM的常用调优参数有哪些？</li> <li>内存快照如何抓取，怎么分析Dump文件？知道吗？</li> <li>谈谈JVM中,类加载器</li></ul> <h2 id="jvm位置"><a href="#jvm位置" class="header-anchor">#</a> JVM位置</h2> <ul><li>操作系统上的（运行虚拟机-）</li></ul> <h2 id="jvm的体系结构"><a href="#jvm的体系结构" class="header-anchor">#</a> JVM的体系结构</h2> <h2 id="类加载器"><a href="#类加载器" class="header-anchor">#</a> 类加载器</h2> <p>作用：加载class文件</p> <ol><li>ClassLoader 类加载器 加载，验证，准备，解析，初始化，使用，销毁</li></ol> <ul><li>虚拟机自带的加载器</li> <li>启动类（根）加载器</li> <li>扩展类记载器</li> <li>应用程序加载器 null C 写的</li></ul> <h2 id="双亲委派机制"><a href="#双亲委派机制" class="header-anchor">#</a> 双亲委派机制</h2> <p>保证安全</p> <ol><li>APP-&gt;EXC-&gt;BOOT</li> <li>向上委托 能加载就结束 否则 通知子加载器加载</li></ol> <h2 id="沙箱安全机制"><a href="#沙箱安全机制" class="header-anchor">#</a> 沙箱安全机制</h2> <p>限制程序运行的环境，以前默认远程代码是不安全的</p> <ul><li>字节码校验器</li> <li>类装载器</li> <li>存取控制器 存取权限</li> <li>安全控制器 权限控制</li> <li>安全软件包 keytools https</li></ul> <h2 id="native"><a href="#native" class="header-anchor">#</a> Native</h2> <p>调用底层C语言的库，会进入本地方法栈，调用JNI，本地方法接口，扩展Java的使用，融合不同的编程语言。</p> <ul><li>融合C和C++，必须要有调用C和C++的程序，想要立足</li> <li>内存区域中专门开辟了一块标记区域，登记native方法</li> <li>在最终执行的时候，加载本地方法库中的方法 通过JNI</li></ul> <p>打印机</p> <h2 id="pc寄存器"><a href="#pc寄存器" class="header-anchor">#</a> PC寄存器</h2> <p>每一个线程都有一个程序计数器，<font style="color:#E8323C;">线程私有</font>，就是一个指针，指向方法区的方法字节码，在执行引擎读取下一条指令，非常小的内存空间，几乎可以忽略不计。</p> <h2 id="方法区"><a href="#方法区" class="header-anchor">#</a> 方法区</h2> <p>线程共享，构造函数，接口，定义方法的信息</p> <p>静态变量，常量，类信息，运行时的常量池存在方法区中，但是实例变量存在堆内存中</p> <p>java 1.7 1.8 常量池在堆</p> <h2 id="栈"><a href="#栈" class="header-anchor">#</a> 栈</h2> <p>数据结构，先进先出。栈内存，主管程序的运行，生命周期和线程同步</p> <p>两个方法互相调用，就会发生栈溢出</p> <p>线程结束，栈内存也就是释放</p> <p>对于栈来说不存在垃圾回收。</p> <p>8大基本数据类型+对象引用+实例的方法</p> <p>栈</p> <ul><li>方法索引（index）</li> <li>输入输出参数（）</li> <li>本地变量</li> <li>引用</li> <li>父帧</li> <li>子帧</li></ul> <h2 id="三种jvm"><a href="#三种jvm" class="header-anchor">#</a> 三种JVM</h2> <ul><li>Sun公司 HotSpot</li> <li>BEA  JRockit 适合军事通信和</li> <li>IBM  J9VM 跟硬件绑定</li></ul> <h2 id="堆"><a href="#堆" class="header-anchor">#</a> 堆</h2> <p>一个JVM，只有一个堆内存，堆内存的大小是可以调节的</p> <p>类加载器读取了类文件后，一般会把什么放入堆中</p> <p>类的实例对象，方法，常量1.8，变量</p> <h2 id="新生区-老年群-永久区"><a href="#新生区-老年群-永久区" class="header-anchor">#</a> 新生区 老年群 永久区</h2> <p>新生区</p> <ul><li>伊甸园（Eden Space）</li> <li>幸存0区</li> <li>幸存1区</li></ul> <p>养老区</p> <p>永久存储区（jdk8  元空间）</p> <p>GC垃圾回收，主要在伊甸园区和养老区</p> <p>内存满了 OOM 堆内存不够</p> <p>新生区</p> <ul><li>一个类：诞生和成长的地方。甚至死亡</li> <li>伊甸园区 new 对象的  满了 轻GC</li> <li>幸存区的也满了就会进行重GC，进入养老</li></ul> <p>永久区（用来存放jdk自身存在的Class对象，java运行时的一些环境和类信息）不存在垃圾回收，关闭虚拟机，释放内存，</p> <p>元空间逻辑上存在，物理上不存在·</p> <ol><li>一个启动类加载了大量的第三方Jar包</li> <li>Tomcat部署了太多的应用</li> <li>大量动态生成的反射类，不断被加载</li></ol> <ul><li>jdk1.6  永久代  常量池在方法区中</li> <li>jdk1.7 永久代  退化了 去永久代    常量池在堆中</li> <li>jdk1.8  无永久代，常量池在元空间（元空间 ），元空间里面有方法区和常量池</li></ul> <h2 id="字符串常量池在堆-运行时常量池在元空间"><a href="#字符串常量池在堆-运行时常量池在元空间" class="header-anchor">#</a> 字符串常量池在堆，运行时常量池在元空间</h2> <div class="language-json extra-class"><pre class="language-json"><code>long max = Runtime.getRuntime().maxMemory();<span class="token comment">// 试图使用的虚拟机内存</span>
+long total = Runtime.getRuntime().totalMemory();<span class="token comment">// 返回jvm的初始化总内存</span>
+</code></pre></div><h2 id="堆内存调优"><a href="#堆内存调优" class="header-anchor">#</a> 堆内存调优</h2> <p>默认分配的总内存是 电脑内存的4/1</p> <p>初始化的内存 是64/1</p> <div class="language-json extra-class"><pre class="language-json"><code>-Xms1024m -Xmx1024m -XX<span class="token operator">:</span>+PrintGCDetails
+<span class="token comment">// -Xms 初始化 默认 1/64</span>
+<span class="token comment">// -Xmx 设置最大分配内存，默认 1/4</span>
+<span class="token comment">// 能够看到第几行代码出错，内存快照分析工具，MAT，Jprofiler</span>
+<span class="token comment">// 分析Dump文件，快速定位内存泄漏问题</span>
+<span class="token comment">// 获得堆中的数据</span>
+<span class="token comment">// 获得大的对象</span>
+<span class="token comment">// Dump 文件</span>
+-Xms1m -Xmx8m -XX<span class="token operator">:</span>+HeapDumpOnOutOfMemoryError
+<span class="token comment">// 最大任期时间 通过这个参数可以设定进入老年代的时间</span>
+-XX<span class="token operator">:</span> MaxTenuringThreshold=<span class="token number">5</span>
+</code></pre></div><h2 id="gc垃圾回收"><a href="#gc垃圾回收" class="header-anchor">#</a> GC垃圾回收</h2> <ul><li>轻GC和重GC</li> <li>谁空谁是to</li> <li>15次GC没有死进入养老区</li></ul> <p>引用计数法：对象的引用次数，计数器本身也会有消耗。</p> <p>复制算法：年轻代，有一个要是空的，（对象存活度较低）</p> <ul><li>好处：没有内存的碎片</li> <li>坏处：浪费了内存空间</li></ul> <p>标记清除法：扫描这些对象，对活着的进行标记。对没有标记的对象进行清除。</p> <ul><li>好处：不需要额外的空间！</li> <li>坏处： 两次扫描，严重浪费时间，会产生内存碎片。</li></ul> <p>标记清除压缩算法： 压缩防止内存碎片产生，再次扫描，向一端移动存活的对象，多了一个移动成本</p> <p><font style="color:rgb(77, 77, 77);">分代收集算法：是根据对象的生命周期，把内存作分代，然后在分配对象的时候，不同生命周期的对象放在不同的代里面，不同的代上使用合适的回收算法进行回收</font></p> <h2 id="jmm-抽象的概念"><a href="#jmm-抽象的概念" class="header-anchor">#</a> JMM(抽象的概念)</h2> <p>javaMemoryModel</p> <p>java内存模型</p> <p>缓存一致性协议，用于定义数据读写的规则</p> <p>JMM定义了线程工作内存 和主内存之间的抽象关系，线程之间的共享变量存储在主内存中，每个线程都有一个私有的本地内存.</p> <p>volatile保证共享对象的可见性,synchronized</p> <p><strong><font style="color:rgb(51, 51, 51);">happens-before规则,</font></strong><font style="color:rgb(51, 51, 51);">happens-before仅仅要求前一个操作（执行的结果）对后一个操作可见，且前一个操作按顺序排在第二个操作之前 。</font></p> <h2 id="总结"><a href="#总结" class="header-anchor">#</a> 总结</h2> <p>内存效率：复制算法&gt;标记清除算法&gt;标记压缩算法（时间复杂度）</p> <p>内存整齐度： 复制算法 = 标记压缩算法 &gt;标记清除算法</p> <p>内存利用率：标记压缩算法 = 标记清除算法 &gt; 复制算法</p> <p>没有最好的算法，但是只有最合适的。</p> <p>分代收集算法：</p> <p>年轻代：</p> <ul><li>存活率低</li> <li>复制算法！</li></ul> <p>老年代：</p> <ul><li>区域大：存活率高</li> <li>标记清除（内存碎片不是很多）加标记压缩混合 实现</li></ul></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">更新时间:</span> <span class="time">2024年11月5日星期二下午4点33分</span></div></footer> <!---->  <!----></main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.c2492ba0.js" defer></script><script src="/assets/js/7.6855d7f5.js" defer></script><script src="/assets/js/1.3a8374e6.js" defer></script><script src="/assets/js/53.8168a589.js" defer></script><script src="/assets/js/22.15b12c38.js" defer></script>
+  </body>
+</html>

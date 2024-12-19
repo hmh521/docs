@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Docker | 轻狂帅哥</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-Y62GB4CEGY" async="true"></script>
+    <script> window.dataLayer = window.dataLayer || [];        function gtag(){dataLayer.push(arguments);}        gtag('js', new Date());        gtag('config', 'G-Y62GB4CEGY');</script>
+    <link rel="icon" href="/assets/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/icons/apple-touch-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/@docsearch/css@alpha" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@alpha"></script>
+    <meta name="description" content="轻狂帅哥的笔记">
+    <meta names="author" content="轻狂帅哥">
+    <meta names="keywords" content="学习，成长，轻狂帅哥的笔记">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <link rel="preload" href="/assets/css/0.styles.25c602b9.css" as="style"><link rel="preload" href="/assets/js/app.c2492ba0.js" as="script"><link rel="preload" href="/assets/js/7.6855d7f5.js" as="script"><link rel="preload" href="/assets/js/1.3a8374e6.js" as="script"><link rel="preload" href="/assets/js/40.aba65f1e.js" as="script"><link rel="preload" href="/assets/js/22.15b12c38.js" as="script"><link rel="prefetch" href="/assets/js/11.1265b5f0.js"><link rel="prefetch" href="/assets/js/12.54e0ed27.js"><link rel="prefetch" href="/assets/js/13.5d7b1694.js"><link rel="prefetch" href="/assets/js/14.0fe1e3ae.js"><link rel="prefetch" href="/assets/js/15.eba1568d.js"><link rel="prefetch" href="/assets/js/16.78b9404e.js"><link rel="prefetch" href="/assets/js/17.6ab60dbd.js"><link rel="prefetch" href="/assets/js/18.8a31c3b4.js"><link rel="prefetch" href="/assets/js/19.8952cbc3.js"><link rel="prefetch" href="/assets/js/2.2f2477cb.js"><link rel="prefetch" href="/assets/js/20.8bc8271e.js"><link rel="prefetch" href="/assets/js/21.11541702.js"><link rel="prefetch" href="/assets/js/23.152108a2.js"><link rel="prefetch" href="/assets/js/24.8d878e40.js"><link rel="prefetch" href="/assets/js/25.823137af.js"><link rel="prefetch" href="/assets/js/26.f23185c9.js"><link rel="prefetch" href="/assets/js/27.43be4522.js"><link rel="prefetch" href="/assets/js/28.74ed9ffb.js"><link rel="prefetch" href="/assets/js/29.375d247b.js"><link rel="prefetch" href="/assets/js/3.9e2336a3.js"><link rel="prefetch" href="/assets/js/30.f0afd84f.js"><link rel="prefetch" href="/assets/js/31.6ae0e49e.js"><link rel="prefetch" href="/assets/js/32.d4e12b03.js"><link rel="prefetch" href="/assets/js/33.75ea2804.js"><link rel="prefetch" href="/assets/js/34.5890d495.js"><link rel="prefetch" href="/assets/js/35.ca26b966.js"><link rel="prefetch" href="/assets/js/36.e127d760.js"><link rel="prefetch" href="/assets/js/37.97de2b13.js"><link rel="prefetch" href="/assets/js/38.5db24d98.js"><link rel="prefetch" href="/assets/js/39.d9d174e0.js"><link rel="prefetch" href="/assets/js/4.e7d0eacc.js"><link rel="prefetch" href="/assets/js/41.efe6c0c2.js"><link rel="prefetch" href="/assets/js/42.7803e2c3.js"><link rel="prefetch" href="/assets/js/43.c81a9343.js"><link rel="prefetch" href="/assets/js/44.560a8b57.js"><link rel="prefetch" href="/assets/js/45.799166cd.js"><link rel="prefetch" href="/assets/js/46.61a082bf.js"><link rel="prefetch" href="/assets/js/47.8989967c.js"><link rel="prefetch" href="/assets/js/48.c4f46e16.js"><link rel="prefetch" href="/assets/js/49.3ebd371b.js"><link rel="prefetch" href="/assets/js/5.947449fc.js"><link rel="prefetch" href="/assets/js/50.0b88538c.js"><link rel="prefetch" href="/assets/js/51.c8efff9d.js"><link rel="prefetch" href="/assets/js/52.d2410e99.js"><link rel="prefetch" href="/assets/js/53.8168a589.js"><link rel="prefetch" href="/assets/js/54.9069084d.js"><link rel="prefetch" href="/assets/js/55.bfe16c8a.js"><link rel="prefetch" href="/assets/js/6.15ee44d5.js"><link rel="prefetch" href="/assets/js/8.c7e6bb89.js"><link rel="prefetch" href="/assets/js/vendors~docsearch.94c2c2a5.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.25c602b9.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/assets/img/logo.png" alt="轻狂帅哥" class="logo"> <span class="site-name can-hide">轻狂帅哥</span></a> <div class="links"><form id="search-form" role="search" class="algolia-search-wrapper search-box"><input id="algolia-search-input" class="search-query"></form> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术笔记" class="dropdown-title"><span class="title">技术笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="技术笔记" class="mobile-dropdown-title"><span class="title">技术笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontend/html/" class="nav-link">
+  HTML &amp; CSS
+</a></li><li class="dropdown-subitem"><a href="/frontend/js/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-subitem"><a href="/frontend/vue/" class="nav-link">
+  Vue
+</a></li></ul></li><li class="dropdown-item"><h4>
+          后端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/backend/javase/" class="nav-link">
+  JavaSE
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Spring框架" class="dropdown-title"><span class="title">Spring框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="Spring框架" class="mobile-dropdown-title"><span class="title">Spring框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frame/spring/" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springmvc/" class="nav-link">
+  SpringMVC
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springboot/" class="nav-link">
+  SpringBoot
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springsecurity/" class="nav-link">
+  SpringSecurity
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/database/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-item"><!----> <a href="/database/oracle/" class="nav-link">
+  Oracle
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="虚拟机" class="dropdown-title"><span class="title">虚拟机</span> <span class="arrow down"></span></button> <button type="button" aria-label="虚拟机" class="mobile-dropdown-title"><span class="title">虚拟机</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/virtualMachine/jvm/" class="nav-link">
+  JVM
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="运维" class="dropdown-title"><span class="title">运维</span> <span class="arrow down"></span></button> <button type="button" aria-label="运维" class="mobile-dropdown-title"><span class="title">运维</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/devops/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/devops/docker/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Docker
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常见问题" class="dropdown-title"><span class="title">常见问题</span> <span class="arrow down"></span></button> <button type="button" aria-label="常见问题" class="mobile-dropdown-title"><span class="title">常见问题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/commonproblem/git/" class="nav-link">
+  git常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/java/" class="nav-link">
+  java常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/mysql/" class="nav-link">
+  mysql常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/vue/" class="nav-link">
+  vue常见问题
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试常问" class="dropdown-title"><span class="title">面试常问</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试常问" class="mobile-dropdown-title"><span class="title">面试常问</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/interview/redis/" class="nav-link">
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/interview/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-item"><!----> <a href="/interview/spring/" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/interview/mybatis/" class="nav-link">
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/interview/springcloud/" class="nav-link">
+  Springcloud
+</a></li></ul></div></div><div class="nav-item"><a href="/about/about.html" class="nav-link">
+  关于我
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="技术笔记" class="dropdown-title"><span class="title">技术笔记</span> <span class="arrow down"></span></button> <button type="button" aria-label="技术笔记" class="mobile-dropdown-title"><span class="title">技术笔记</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/frontend/html/" class="nav-link">
+  HTML &amp; CSS
+</a></li><li class="dropdown-subitem"><a href="/frontend/js/" class="nav-link">
+  JavaScript
+</a></li><li class="dropdown-subitem"><a href="/frontend/vue/" class="nav-link">
+  Vue
+</a></li></ul></li><li class="dropdown-item"><h4>
+          后端
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/backend/javase/" class="nav-link">
+  JavaSE
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Spring框架" class="dropdown-title"><span class="title">Spring框架</span> <span class="arrow down"></span></button> <button type="button" aria-label="Spring框架" class="mobile-dropdown-title"><span class="title">Spring框架</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/frame/spring/" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springmvc/" class="nav-link">
+  SpringMVC
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springboot/" class="nav-link">
+  SpringBoot
+</a></li><li class="dropdown-item"><!----> <a href="/frame/springsecurity/" class="nav-link">
+  SpringSecurity
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="数据库" class="dropdown-title"><span class="title">数据库</span> <span class="arrow down"></span></button> <button type="button" aria-label="数据库" class="mobile-dropdown-title"><span class="title">数据库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/database/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-item"><!----> <a href="/database/oracle/" class="nav-link">
+  Oracle
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="虚拟机" class="dropdown-title"><span class="title">虚拟机</span> <span class="arrow down"></span></button> <button type="button" aria-label="虚拟机" class="mobile-dropdown-title"><span class="title">虚拟机</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/virtualMachine/jvm/" class="nav-link">
+  JVM
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="运维" class="dropdown-title"><span class="title">运维</span> <span class="arrow down"></span></button> <button type="button" aria-label="运维" class="mobile-dropdown-title"><span class="title">运维</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/devops/linux/" class="nav-link">
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/devops/docker/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  Docker
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常见问题" class="dropdown-title"><span class="title">常见问题</span> <span class="arrow down"></span></button> <button type="button" aria-label="常见问题" class="mobile-dropdown-title"><span class="title">常见问题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/commonproblem/git/" class="nav-link">
+  git常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/java/" class="nav-link">
+  java常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/mysql/" class="nav-link">
+  mysql常见问题
+</a></li><li class="dropdown-item"><!----> <a href="/commonproblem/vue/" class="nav-link">
+  vue常见问题
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="面试常问" class="dropdown-title"><span class="title">面试常问</span> <span class="arrow down"></span></button> <button type="button" aria-label="面试常问" class="mobile-dropdown-title"><span class="title">面试常问</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/interview/redis/" class="nav-link">
+  Redis
+</a></li><li class="dropdown-item"><!----> <a href="/interview/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-item"><!----> <a href="/interview/spring/" class="nav-link">
+  Spring
+</a></li><li class="dropdown-item"><!----> <a href="/interview/mybatis/" class="nav-link">
+  Mybatis
+</a></li><li class="dropdown-item"><!----> <a href="/interview/springcloud/" class="nav-link">
+  Springcloud
+</a></li></ul></div></div><div class="nav-item"><a href="/about/about.html" class="nav-link">
+  关于我
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>docker</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/devops/docker/" aria-current="page" class="active sidebar-link">Docker</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/devops/docker/#历史" class="sidebar-link">历史</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#基本组成" class="sidebar-link">基本组成</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#安装命令" class="sidebar-link">安装命令</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#容器命令" class="sidebar-link">容器命令</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#常用其他命令" class="sidebar-link">常用其他命令</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#docker-安装nginx" class="sidebar-link">Docker 安装Nginx</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#docker-安装tomcat" class="sidebar-link">Docker 安装tomcat</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#docker-安装es-kibana-通过linux内网链接" class="sidebar-link">Docker 安装ES + kibana (通过linux内网链接)</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#portainer-图形化管理工具" class="sidebar-link">portainer 图形化管理工具</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#docker镜像" class="sidebar-link">Docker镜像</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#commit镜像" class="sidebar-link">Commit镜像</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#容器数据卷" class="sidebar-link">容器数据卷</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#mysql同步数据" class="sidebar-link">Mysql同步数据</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#具名挂载和匿名挂载" class="sidebar-link">具名挂载和匿名挂载</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#dockerfile" class="sidebar-link">Dockerfile</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#数据卷容器" class="sidebar-link">数据卷容器</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#dockerfile-构建过程" class="sidebar-link">DockerFile 构建过程</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#cmd-和-entrypoint" class="sidebar-link">CMD 和 ENTRYPOINT</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#tomcat-镜像" class="sidebar-link">Tomcat 镜像</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#发布自己的镜像" class="sidebar-link">发布自己的镜像</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#docker网络" class="sidebar-link">Docker网络</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#link" class="sidebar-link">--link</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#自定义网络-推荐使用" class="sidebar-link">自定义网络（推荐使用）</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#网络打通" class="sidebar-link">网络打通</a></li><li class="sidebar-sub-header"><a href="/devops/docker/#redis-集群" class="sidebar-link">redis 集群</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="docker"><a href="#docker" class="header-anchor">#</a> Docker</h1> <p>环境配置十分麻烦，费时费力</p> <p>发布jar包，带着环境(redis,mysql,jdk,es),能不能带着环境</p> <p>隔离性</p> <p>通过隔离机制，可以将服务器利用到极致！！！</p> <p>基于Go语言开发的</p> <p><img src="https://cdn.nlark.com/yuque/0/2023/png/33708367/1679204062244-ccadb5ac-b866-4fc9-908d-7edd95ea71a5.png" alt=""></p> <h2 id="历史"><a href="#历史" class="header-anchor">#</a> 历史</h2> <p>dotCloud 公司</p> <p>LXC 容器技术</p> <p>容器化技术 docker</p> <p>2013年开源</p> <p>2014.4.9 Docker1.0 发布</p> <p>Docker 十分的小巧 镜像（最核心的环境）秒级启动！</p> <p>官网：<a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">https://www.docker.com/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>文档：<a href="https://docs.docker.com/" target="_blank" rel="noopener noreferrer">https://docs.docker.com/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>仓库地址： <a href="https://hub.docker.com/" target="_blank" rel="noopener noreferrer">https://hub.docker.com/<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <p>虚拟机技术缺点：</p> <ol><li>资源占用十分多</li> <li>冗余步骤多</li> <li>启动很慢</li></ol> <p>容器内的应用直接运行在宿主机的内容，容器是没有自己的内核的，也没有虚拟我们的硬件。</p> <p>容器间是互相隔离。每个容器内都有一个属于自己的文件系统，互不影响。</p> <p>DevOps（开发，运维）</p> <p>应用更快速的交付和部署</p> <p>更便捷的升级和扩缩容</p> <p>更简单的系统运维</p> <p>更高效的计算资源利用</p> <p>内核级别的虚拟化，可以在一个物理机上运行很多的容器实例。</p> <p>kernel 内核的名词</p> <h2 id="基本组成"><a href="#基本组成" class="header-anchor">#</a> 基本组成</h2> <p>镜像（image）：模板，可以通过模板创建容器服务，tomcat镜像=&gt;run=&gt;tomcat1容器</p> <p>容器（container）：独立运行一个或者一组应用，通过镜像来创建的，可以理解成一个简易的linux系统</p> <p>仓库（respository）： 存放镜像的地方，默认是国外的，阿里云-配置镜像加速</p> <p>docker是一个client-Server结构的系统，Docker的守护进程运行在主机上，通过socket客户端进行访问。</p> <p>docker-server 接收到Docker-client 的指令，就会执行。</p> <p>docker 拥有比虚拟机更少的抽象层，不需要重新加载操作系统内核。</p> <p><img src="https://cdn.nlark.com/yuque/0/2023/png/33708367/1679211945358-99329879-3833-4652-bf77-daddd393004c.png" alt=""></p> <p><img src="https://cdn.nlark.com/yuque/0/2023/png/33708367/1679216498999-088bbc1f-8465-46c3-9421-746d63c2850a.png" alt=""></p> <h2 id="安装命令"><a href="#安装命令" class="header-anchor">#</a> 安装命令</h2> <div class="language-plain extra-class"><pre class="language-plain"><code>uname -r
+# 系统版本
+cat /etc/os-release
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> version <span class="token comment"># 显示docker的版本信息</span>
+<span class="token function">docker</span> info <span class="token comment"># 显示docker的系统信息，包括镜像和容器</span>
+<span class="token function">docker</span> 命令 -- <span class="token builtin class-name">help</span> <span class="token comment"># 万能命令</span>
+<span class="token function">docker</span> images 查看所有镜像
+
+REPOSITORY     TAG       IMAGE ID       CREATED         SIZE
+halohub/halo   <span class="token number">1.5</span>.1     03d06d44c0c4   <span class="token number">11</span> months ago   346MB
+mysql          latest    667ee8fb158e   <span class="token number">11</span> months ago   521MB
+mysql          <span class="token number">8.0</span>.27    3218b38490ce   <span class="token number">15</span> months ago   516MB
+ruibaby/halo   latest    caebc1d425f9   <span class="token number">20</span> months ago   326MB
+
+REPOSITORY 镜像的仓库源
+TAG 镜像的标签
+IMAGE ID 镜像id
+CREATED 镜像的创建时间
+SIZE 镜像的大小
+
+<span class="token comment"># 可选项</span>
+<span class="token parameter variable">-a</span> 全部镜像
+<span class="token parameter variable">-q</span> 只显示id
+
+<span class="token function">docker</span> search 搜索镜像
+
+<span class="token function">docker</span> search mysql
+NAME                            DESCRIPTION                                     STARS     OFFICIAL   AUTOMATED
+mysql                           MySQL is a widely used, open-source relation…   <span class="token number">13949</span>     <span class="token punctuation">[</span>OK<span class="token punctuation">]</span>
+mariadb                         MariaDB Server is a high performing <span class="token function">open</span> sou…   <span class="token number">5317</span>      <span class="token punctuation">[</span>OK<span class="token punctuation">]</span>
+phpmyadmin                      phpMyAdmin - A web interface <span class="token keyword">for</span> MySQL and M…   <span class="token number">762</span>       <span class="token punctuation">[</span>OK<span class="token punctuation">]</span>
+
+<span class="token function">docker</span> search mysql <span class="token parameter variable">--filter</span><span class="token operator">=</span>STARS<span class="token operator">=</span><span class="token number">5000</span>
+
+<span class="token function">docker</span> pull 下载镜像 
+如果不写tags，默认就是最新的latest
+分层下载
+联合文件系统
+签名
+真实地址
+<span class="token function">docker</span> pull mysql
+Using default tag: latest
+latest: Pulling from library/mysql
+Digest: sha256:e9027fe4d91c0153429607251656806cc784e914937271037f7738bd5b8e7709
+Status: Downloaded newer image <span class="token keyword">for</span> mysql:latest
+docker.io/library/mysql:latest
+
+
+<span class="token function">docker</span> pull mysql:5.7
+<span class="token number">5.7</span>: Pulling from library/mysql
+72a69066d2fe: Already exists 不需要下载省空间
+93619dbc5b36: Already exists
+99da31dd6142: Already exists
+626033c43d70: Already exists
+37d5d7efb64e: Already exists
+ac563158d721: Already exists
+d2ba16033dad: Already exists
+0ceb82207cd7: Pull complete
+37f2405cae96: Pull complete
+e2482e017e53: Pull complete
+70deed891d42: Pull complete
+Digest: sha256:f2ad209efe9c67104167fc609cca6973c8422939491c9345270175a300419f94
+Status: Downloaded newer image <span class="token keyword">for</span> mysql:5.7
+
+<span class="token function">docker</span> rmi <span class="token parameter variable">-f</span> 容器id 容器id 多个
+<span class="token function">docker</span> rmi <span class="token parameter variable">-f</span> <span class="token variable">${docker images -aq}</span> 删除全部容器
+</code></pre></div><p><img src="https://cdn.nlark.com/yuque/0/2023/png/33708367/1679211333890-91764075-3bf8-4125-9954-b7b3b75f40e6.png" alt=""></p> <h2 id="容器命令"><a href="#容器命令" class="header-anchor">#</a> 容器命令</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> run<span class="token punctuation">[</span>可选参数<span class="token punctuation">]</span> image
+
+<span class="token parameter variable">--name</span><span class="token operator">=</span><span class="token string">&quot;name&quot;</span> 容器名字
+<span class="token parameter variable">-d</span>  后台运行
+<span class="token parameter variable">-it</span> 使用交互方式运行，进入容器查看内容
+<span class="token parameter variable">-P</span> 指定容器端口 <span class="token parameter variable">-p:8080</span>
+主机端口:容器端口
+<span class="token parameter variable">-p</span> 随机指定端口
+
+<span class="token function">docker</span> run <span class="token parameter variable">-it</span> centos /bin/bash
+<span class="token function">docker</span> <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> 容器ID /bin/bash   根据ID重新进入容器交互
+<span class="token builtin class-name">exit</span> 退回
+<span class="token function">docker</span> <span class="token function">ps</span> 运行中的容器
+<span class="token function">docker</span> <span class="token function">ps</span> <span class="token parameter variable">-a</span> 包括历史运行过的容器
+<span class="token function">docker</span> <span class="token function">ps</span> <span class="token parameter variable">-n</span><span class="token operator">=</span><span class="token number">1</span> 显示最近创建的一个容器
+<span class="token function">docker</span> <span class="token function">ps</span> <span class="token parameter variable">-q</span> 容器id
+ctrl + p + q  退出容器不停止
+删除容器
+<span class="token function">docker</span> <span class="token function">rm</span> 容器id 
+<span class="token function">docker</span> <span class="token function">rm</span> <span class="token parameter variable">-f</span> <span class="token variable">${docker ps -aq}</span>
+<span class="token function">docker</span> <span class="token function">ps</span> <span class="token parameter variable">-a</span> <span class="token parameter variable">-q</span> <span class="token operator">|</span> <span class="token function">xargs</span> <span class="token function">docker</span> <span class="token function">rm</span>
+启动和停止容器
+<span class="token function">docker</span> start 容器id  <span class="token comment">#启动容器</span>
+<span class="token function">docker</span> restart 容器id
+<span class="token function">docker</span> stop 容器id
+<span class="token function">docker</span> <span class="token function">kill</span> 容器id
+</code></pre></div><h2 id="常用其他命令"><a href="#常用其他命令" class="header-anchor">#</a> 常用其他命令</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> run <span class="token parameter variable">-d</span> centos 容器使用后台运行，必须有前台进程
+
+<span class="token function">docker</span> logs <span class="token parameter variable">-tf</span> <span class="token parameter variable">--tail</span> 条数 容器id
+
+<span class="token parameter variable">-t</span> 日志加时间， <span class="token parameter variable">-f</span> 保留打印窗口，持续打印，--tail <span class="token number">10</span> 显示最后的10行
+
+编写一段脚本
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> centos /bin/sh <span class="token parameter variable">-c</span> <span class="token string">&quot;while true;do echo haohao;sleep 1;done&quot;</span>
+
+<span class="token function">docker</span> <span class="token function">top</span> 容器id 进程信息
+<span class="token function">docker</span> inspect 容器id 容器信息
+<span class="token function">docker</span> inspect a2ebc10c9609 镜像元信息
+<span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+        <span class="token string">&quot;Id&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;a2ebc10c9609547c2787e37ac5273b7f812d4a5a1d779bb0bba856119aadebc7&quot;</span>,
+        <span class="token string">&quot;Created&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;2022-04-05T18:22:54.165777796Z&quot;</span>,
+        <span class="token string">&quot;Path&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/bin/sh&quot;</span>,
+        <span class="token string">&quot;Args&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+            <span class="token string">&quot;-c&quot;</span>,
+            <span class="token string">&quot;java -Xms<span class="token variable">${JVM_XMS}</span> -Xmx<span class="token variable">${JVM_XMX}</span> <span class="token variable">${JVM_OPTS}</span> -Djava.security.egd=file:/dev/./urandom org.springframework.boot.loader.JarLauncher&quot;</span>
+        <span class="token punctuation">]</span>,
+        <span class="token string">&quot;State&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;Status&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;running&quot;</span>,
+            <span class="token string">&quot;Running&quot;</span><span class="token builtin class-name">:</span> true,
+            <span class="token string">&quot;Paused&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;Restarting&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;OOMKilled&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;Dead&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;Pid&quot;</span><span class="token builtin class-name">:</span> <span class="token number">4736</span>,
+            <span class="token string">&quot;ExitCode&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;Error&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;StartedAt&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;2023-03-19T12:03:42.040491767Z&quot;</span>,
+            <span class="token string">&quot;FinishedAt&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;2023-03-19T12:03:41.56113272Z&quot;</span>
+        <span class="token punctuation">}</span>,
+        <span class="token string">&quot;Image&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;sha256:03d06d44c0c4140ce9e0858a755617d07ca75100173ab886f460019d6e68d10d&quot;</span>,
+        <span class="token string">&quot;ResolvConfPath&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/var/lib/docker/containers/a2ebc10c9609547c2787e37ac5273b7f812d4a5a1d779bb0bba856119aadebc7/resolv.conf&quot;</span>,
+        <span class="token string">&quot;HostnamePath&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/var/lib/docker/containers/a2ebc10c9609547c2787e37ac5273b7f812d4a5a1d779bb0bba856119aadebc7/hostname&quot;</span>,
+        <span class="token string">&quot;HostsPath&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/var/lib/docker/containers/a2ebc10c9609547c2787e37ac5273b7f812d4a5a1d779bb0bba856119aadebc7/hosts&quot;</span>,
+        <span class="token string">&quot;LogPath&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/var/lib/docker/containers/a2ebc10c9609547c2787e37ac5273b7f812d4a5a1d779bb0bba856119aadebc7/a2ebc10c9609547c2787e37ac5273b7f812d4a5a1d779bb0bba856119aadebc7-json.log&quot;</span>,
+        <span class="token string">&quot;Name&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/halo&quot;</span>,
+        <span class="token string">&quot;RestartCount&quot;</span><span class="token builtin class-name">:</span> <span class="token number">1080</span>,
+        <span class="token string">&quot;Driver&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;overlay2&quot;</span>,
+        <span class="token string">&quot;Platform&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;linux&quot;</span>,
+        <span class="token string">&quot;MountLabel&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+        <span class="token string">&quot;ProcessLabel&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+        <span class="token string">&quot;AppArmorProfile&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+        <span class="token string">&quot;ExecIDs&quot;</span><span class="token builtin class-name">:</span> null,
+        <span class="token string">&quot;HostConfig&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;Binds&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;/root/.halo:/root/.halo&quot;</span>
+            <span class="token punctuation">]</span>,
+            <span class="token string">&quot;ContainerIDFile&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;LogConfig&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+                <span class="token string">&quot;Type&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;json-file&quot;</span>,
+                <span class="token string">&quot;Config&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>,
+            <span class="token string">&quot;NetworkMode&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;halo-net&quot;</span>,
+            <span class="token string">&quot;PortBindings&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+                <span class="token string">&quot;8090/tcp&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+                    <span class="token punctuation">{</span>
+                        <span class="token string">&quot;HostIp&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+                        <span class="token string">&quot;HostPort&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;8090&quot;</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">]</span>
+            <span class="token punctuation">}</span>,
+            <span class="token string">&quot;RestartPolicy&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+                <span class="token string">&quot;Name&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;unless-stopped&quot;</span>,
+                <span class="token string">&quot;MaximumRetryCount&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>
+            <span class="token punctuation">}</span>,
+            <span class="token string">&quot;AutoRemove&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;VolumeDriver&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;VolumesFrom&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;CapAdd&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;CapDrop&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;CgroupnsMode&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;host&quot;</span>,
+            <span class="token string">&quot;Dns&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>,
+            <span class="token string">&quot;DnsOptions&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>,
+            <span class="token string">&quot;DnsSearch&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>,
+            <span class="token string">&quot;ExtraHosts&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;GroupAdd&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;IpcMode&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;private&quot;</span>,
+            <span class="token string">&quot;Cgroup&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;Links&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;OomScoreAdj&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;PidMode&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;Privileged&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;PublishAllPorts&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;ReadonlyRootfs&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;SecurityOpt&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;UTSMode&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;UsernsMode&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;ShmSize&quot;</span><span class="token builtin class-name">:</span> <span class="token number">67108864</span>,
+            <span class="token string">&quot;Runtime&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;runc&quot;</span>,
+            <span class="token string">&quot;ConsoleSize&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+                <span class="token number">0</span>,
+                <span class="token number">0</span>
+            <span class="token punctuation">]</span>,
+            <span class="token string">&quot;Isolation&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;CpuShares&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;Memory&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;NanoCpus&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;CgroupParent&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;BlkioWeight&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;BlkioWeightDevice&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>,
+            <span class="token string">&quot;BlkioDeviceReadBps&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;BlkioDeviceWriteBps&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;BlkioDeviceReadIOps&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;BlkioDeviceWriteIOps&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;CpuPeriod&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;CpuQuota&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;CpuRealtimePeriod&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;CpuRealtimeRuntime&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;CpusetCpus&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;CpusetMems&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;Devices&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>,
+            <span class="token string">&quot;DeviceCgroupRules&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;DeviceRequests&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;KernelMemory&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;KernelMemoryTCP&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;MemoryReservation&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;MemorySwap&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;MemorySwappiness&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;OomKillDisable&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;PidsLimit&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;Ulimits&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;CpuCount&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;CpuPercent&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;IOMaximumIOps&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;IOMaximumBandwidth&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;MaskedPaths&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;/proc/asound&quot;</span>,
+                <span class="token string">&quot;/proc/acpi&quot;</span>,
+                <span class="token string">&quot;/proc/kcore&quot;</span>,
+                <span class="token string">&quot;/proc/keys&quot;</span>,
+                <span class="token string">&quot;/proc/latency_stats&quot;</span>,
+                <span class="token string">&quot;/proc/timer_list&quot;</span>,
+                <span class="token string">&quot;/proc/timer_stats&quot;</span>,
+                <span class="token string">&quot;/proc/sched_debug&quot;</span>,
+                <span class="token string">&quot;/proc/scsi&quot;</span>,
+                <span class="token string">&quot;/sys/firmware&quot;</span>
+            <span class="token punctuation">]</span>,
+            <span class="token string">&quot;ReadonlyPaths&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;/proc/bus&quot;</span>,
+                <span class="token string">&quot;/proc/fs&quot;</span>,
+                <span class="token string">&quot;/proc/irq&quot;</span>,
+                <span class="token string">&quot;/proc/sys&quot;</span>,
+                <span class="token string">&quot;/proc/sysrq-trigger&quot;</span>
+            <span class="token punctuation">]</span>
+        <span class="token punctuation">}</span>,
+        <span class="token string">&quot;GraphDriver&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;Data&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+                <span class="token string">&quot;LowerDir&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/var/lib/docker/overlay2/84f7830e35c9dc3ad36730e53d3c365ad0c41f991994ac9328bf5ee104cb08c6-init/diff:/var/lib/docker/overlay2/f24d91ba4b5cf7dea573af64f6b9aa7260cc863426b8e5b99174d277c111168d/diff:/var/lib/docker/overlay2/3c4ae529c521e83486a4a717d66796d130319db859d579716078f2f053147769/diff:/var/lib/docker/overlay2/cefaf69fa93121e9127e8e04b36e0f6c80ce58c97db159beda164ce7eaa88411/diff:/var/lib/docker/overlay2/bfcac4da832de52ee4b3364ee1a522e6b5d5d53fb755cb2d269c653287737048/diff:/var/lib/docker/overlay2/44df50d21be2d77a17b82e5370efc0a94025c8bb74ac8b915ad9ca136ab0ce76/diff:/var/lib/docker/overlay2/83b0b66e77e5ece0783442ae7f47497fc16d8ab4bf9d3b24732df163cc3e5650/diff:/var/lib/docker/overlay2/18309b8d714979145280799df0d82989866a8e2d893c32df4fd3a3f45a908fe4/diff:/var/lib/docker/overlay2/cbdf7c44ec7924decc7aa083367b49eea5da37f00e3e22e30295f25a693a4cd5/diff:/var/lib/docker/overlay2/6d957257ef6b8cb42ca8453e476d3baa2001d734a3a1a89116538b8ad056e208/diff&quot;</span>,
+                <span class="token string">&quot;MergedDir&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/var/lib/docker/overlay2/84f7830e35c9dc3ad36730e53d3c365ad0c41f991994ac9328bf5ee104cb08c6/merged&quot;</span>,
+                <span class="token string">&quot;UpperDir&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/var/lib/docker/overlay2/84f7830e35c9dc3ad36730e53d3c365ad0c41f991994ac9328bf5ee104cb08c6/diff&quot;</span>,
+                <span class="token string">&quot;WorkDir&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/var/lib/docker/overlay2/84f7830e35c9dc3ad36730e53d3c365ad0c41f991994ac9328bf5ee104cb08c6/work&quot;</span>
+            <span class="token punctuation">}</span>,
+            <span class="token string">&quot;Name&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;overlay2&quot;</span>
+        <span class="token punctuation">}</span>,
+        <span class="token string">&quot;Mounts&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+            <span class="token punctuation">{</span>
+                <span class="token string">&quot;Type&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;bind&quot;</span>,
+                <span class="token string">&quot;Source&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/root/.halo&quot;</span>,
+                <span class="token string">&quot;Destination&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/root/.halo&quot;</span>,
+                <span class="token string">&quot;Mode&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+                <span class="token string">&quot;RW&quot;</span><span class="token builtin class-name">:</span> true,
+                <span class="token string">&quot;Propagation&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;rprivate&quot;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>,
+        <span class="token string">&quot;Config&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;Hostname&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;a2ebc10c9609&quot;</span>,
+            <span class="token string">&quot;Domainname&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;User&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;AttachStdin&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;AttachStdout&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;AttachStderr&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;ExposedPorts&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+                <span class="token string">&quot;8090/tcp&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>,
+            <span class="token string">&quot;Tty&quot;</span><span class="token builtin class-name">:</span> true,
+            <span class="token string">&quot;OpenStdin&quot;</span><span class="token builtin class-name">:</span> true,
+            <span class="token string">&quot;StdinOnce&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;Env&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;PATH=/opt/java/openjdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin&quot;</span>,
+                <span class="token string">&quot;LANG=en_US.UTF-8&quot;</span>,
+                <span class="token string">&quot;LANGUAGE=en_US:en&quot;</span>,
+                <span class="token string">&quot;LC_ALL=en_US.UTF-8&quot;</span>,
+                <span class="token string">&quot;JAVA_VERSION=jdk-11.0.11+9&quot;</span>,
+                <span class="token string">&quot;JAVA_HOME=/opt/java/openjdk&quot;</span>,
+                <span class="token string">&quot;JVM_XMS=256m&quot;</span>,
+                <span class="token string">&quot;JVM_XMX=256m&quot;</span>,
+                <span class="token string">&quot;JVM_OPTS=-Xmx256m -Xms256m&quot;</span>,
+                <span class="token string">&quot;TZ=Asia/Shanghai&quot;</span>
+            <span class="token punctuation">]</span>,
+            <span class="token string">&quot;Cmd&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;Image&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;halohub/halo:1.5.1&quot;</span>,
+            <span class="token string">&quot;Volumes&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;WorkingDir&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/application&quot;</span>,
+            <span class="token string">&quot;Entrypoint&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+                <span class="token string">&quot;/bin/sh&quot;</span>,
+                <span class="token string">&quot;-c&quot;</span>,
+                <span class="token string">&quot;java -Xms<span class="token variable">${JVM_XMS}</span> -Xmx<span class="token variable">${JVM_XMX}</span> <span class="token variable">${JVM_OPTS}</span> -Djava.security.egd=file:/dev/./urandom org.springframework.boot.loader.JarLauncher&quot;</span>
+            <span class="token punctuation">]</span>,
+            <span class="token string">&quot;OnBuild&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;Labels&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+                <span class="token string">&quot;org.opencontainers.image.created&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;2022-03-30T10:01:39.477Z&quot;</span>,
+                <span class="token string">&quot;org.opencontainers.image.description&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;✍ 一款现代化的开源博客 / CMS 系统。&quot;</span>,
+                <span class="token string">&quot;org.opencontainers.image.licenses&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;GPL-3.0&quot;</span>,
+                <span class="token string">&quot;org.opencontainers.image.revision&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;ec6df79e7a2762f944e1cc740ef8bc92cc31bde8&quot;</span>,
+                <span class="token string">&quot;org.opencontainers.image.source&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;https://github.com/halo-dev/halo&quot;</span>,
+                <span class="token string">&quot;org.opencontainers.image.title&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;halo&quot;</span>,
+                <span class="token string">&quot;org.opencontainers.image.url&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;https://github.com/halo-dev/halo&quot;</span>,
+                <span class="token string">&quot;org.opencontainers.image.version&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;1.5.1&quot;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>,
+        <span class="token string">&quot;NetworkSettings&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+            <span class="token string">&quot;Bridge&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;SandboxID&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;50347fb9c6c1cc7cd5c3ae15c6a6da7b70a21cffc27e11dc5e78b46293efae5d&quot;</span>,
+            <span class="token string">&quot;HairpinMode&quot;</span><span class="token builtin class-name">:</span> false,
+            <span class="token string">&quot;LinkLocalIPv6Address&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;LinkLocalIPv6PrefixLen&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;Ports&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+                <span class="token string">&quot;8090/tcp&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+                    <span class="token punctuation">{</span>
+                        <span class="token string">&quot;HostIp&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;0.0.0.0&quot;</span>,
+                        <span class="token string">&quot;HostPort&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;8090&quot;</span>
+                    <span class="token punctuation">}</span>
+                <span class="token punctuation">]</span>
+            <span class="token punctuation">}</span>,
+            <span class="token string">&quot;SandboxKey&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;/var/run/docker/netns/50347fb9c6c1&quot;</span>,
+            <span class="token string">&quot;SecondaryIPAddresses&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;SecondaryIPv6Addresses&quot;</span><span class="token builtin class-name">:</span> null,
+            <span class="token string">&quot;EndpointID&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;Gateway&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;GlobalIPv6Address&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;GlobalIPv6PrefixLen&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;IPAddress&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;IPPrefixLen&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+            <span class="token string">&quot;IPv6Gateway&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;MacAddress&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+            <span class="token string">&quot;Networks&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+                <span class="token string">&quot;halo-net&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">{</span>
+                    <span class="token string">&quot;IPAMConfig&quot;</span><span class="token builtin class-name">:</span> null,
+                    <span class="token string">&quot;Links&quot;</span><span class="token builtin class-name">:</span> null,
+                    <span class="token string">&quot;Aliases&quot;</span><span class="token builtin class-name">:</span> <span class="token punctuation">[</span>
+                        <span class="token string">&quot;a2ebc10c9609&quot;</span>
+                    <span class="token punctuation">]</span>,
+                    <span class="token string">&quot;NetworkID&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;b5f9022fc9831bd004e5845de783650c03ae9124df0e633f5774426b7eed6d56&quot;</span>,
+                    <span class="token string">&quot;EndpointID&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;19513a155ea030c98649c7bdd3f140ad4d7d2efba219e046cd94bcededf87ba2&quot;</span>,
+                    <span class="token string">&quot;Gateway&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;172.19.0.1&quot;</span>,
+                    <span class="token string">&quot;IPAddress&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;172.19.0.2&quot;</span>,
+                    <span class="token string">&quot;IPPrefixLen&quot;</span><span class="token builtin class-name">:</span> <span class="token number">16</span>,
+                    <span class="token string">&quot;IPv6Gateway&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+                    <span class="token string">&quot;GlobalIPv6Address&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;&quot;</span>,
+                    <span class="token string">&quot;GlobalIPv6PrefixLen&quot;</span><span class="token builtin class-name">:</span> <span class="token number">0</span>,
+                    <span class="token string">&quot;MacAddress&quot;</span><span class="token builtin class-name">:</span> <span class="token string">&quot;02:42:ac:13:00:02&quot;</span>,
+                    <span class="token string">&quot;DriverOpts&quot;</span><span class="token builtin class-name">:</span> null
+                <span class="token punctuation">}</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+
+<span class="token function">docker</span> exex <span class="token parameter variable">-it</span> 容器id /bin/bash 进入容器 新窗口
+
+<span class="token function">docker</span> attach 容器id 依附于当前运行命令行
+
+
+从容器内拷贝到主机
+
+<span class="token function">docker</span> <span class="token function">cp</span> 容器id:容器内路径 目的主机路径
+
+当多个窗口同是attach到同一个容器的时候，所有窗口都会同步显示；当某个窗口因命令阻塞时，其他窗口也无法执行操作。
+可以使用 <span class="token function">docker</span> <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> 容器id /bin/bash 进入容器并开启一个新的bash终端。 退出容器终端时，不会导致容器的停止。
+使用 <span class="token function">docker</span> attach 容器id 进入正在执行容器，不会启动新的终端， 退出容器时，会导致容器的停止。
+
+</code></pre></div><h2 id="docker-安装nginx"><a href="#docker-安装nginx" class="header-anchor">#</a> Docker 安装Nginx</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">--name</span> nginx01 <span class="token parameter variable">-p</span> <span class="token number">3344</span>:80 nginx
+<span class="token function">curl</span> localhost:3344
+<span class="token function">docker</span> images
+<span class="token function">docker</span> <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> nginx01 /bin/bash
+<span class="token function">whereis</span> nginx
+<span class="token builtin class-name">cd</span> /etc/nginx
+<span class="token builtin class-name">exit</span>
+<span class="token function">docker</span> stop 容器id
+</code></pre></div><h2 id="docker-安装tomcat"><a href="#docker-安装tomcat" class="header-anchor">#</a> Docker 安装tomcat</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> run <span class="token parameter variable">-it</span> <span class="token parameter variable">--rm</span> tomcat:9.0  一般用来测试，用完就删除
+<span class="token function">docker</span> pull tomcat:9.0
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-p</span> <span class="token number">3355</span>:8080 <span class="token parameter variable">--name</span> tomcat01 tomcat
+<span class="token function">docker</span> <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> tomcat01 /bin/bash  
+没有linux命令ll webapps
+<span class="token builtin class-name">cd</span> webapps.dist/
+<span class="token builtin class-name">cd</span> <span class="token punctuation">..</span>
+<span class="token function">cp</span> <span class="token parameter variable">-r</span> webapps.dist/* webapps
+</code></pre></div><h2 id="docker-安装es-kibana-通过linux内网链接"><a href="#docker-安装es-kibana-通过linux内网链接" class="header-anchor">#</a> Docker 安装ES + kibana (通过linux内网链接)</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">--name</span> elasticsearch02 <span class="token parameter variable">-p</span> <span class="token number">9200</span>:9200 <span class="token parameter variable">-p</span> <span class="token number">9300</span>:9300 <span class="token parameter variable">-e</span> <span class="token string">&quot;discovery.type=single-node&quot;</span>
+<span class="token parameter variable">-e</span> <span class="token assign-left variable">ES_JAVA_OPTS</span><span class="token operator">=</span><span class="token string">&quot;-Xms64m -Xmx512m&quot;</span> elasticsearch:7.6.2
+<span class="token function">docker</span> <span class="token function">ps</span> 卡住了
+<span class="token function">docker</span> stats
+
+增加内存限制 <span class="token parameter variable">-e</span> 参数
+</code></pre></div><h2 id="portainer-图形化管理工具"><a href="#portainer-图形化管理工具" class="header-anchor">#</a> portainer 图形化管理工具</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> search portainer
+<span class="token function">docker</span> pull portainer/portainer
+<span class="token function">docker</span> volume create portainer_data
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-p</span> <span class="token number">9000</span>:9000 <span class="token parameter variable">--restart</span><span class="token operator">=</span>always  <span class="token parameter variable">-v</span> /var/run/docker.sock:/var/run/docker.sock <span class="token parameter variable">-v</span> portainer_data:/data <span class="token parameter variable">--name</span> prtainer-test  portainer/portainer
+</code></pre></div><p>CI/CD 用Rancher</p> <h2 id="docker镜像"><a href="#docker镜像" class="header-anchor">#</a> Docker镜像</h2> <p>镜像是一种轻量级，可执行的独立软件包，所有的应用，直接打包docker 镜像，就可以直接跑起来。</p> <p>如何得到镜像：</p> <ol><li>远程仓库下载</li> <li>朋友拷贝</li> <li>自己制作一个镜像DockerFile</li></ol> <h3 id="docker镜像加载原理-分层"><a href="#docker镜像加载原理-分层" class="header-anchor">#</a> Docker镜像加载原理（分层）</h3> <p>UnionFS（联合文件系统）</p> <p>一次同时加载多个文件系统，联合加载会把各层文件系统叠加起来，最终的文件系统会包含所有底层的文件和目录</p> <p>bootFs 系统需要引导加载</p> <p>rootFs 在bootFs之上不同操作系统的发行版</p> <p>只要内核即可</p> <div class="language-shell extra-class"><pre class="language-shell"><code>查看镜像操作  <span class="token function">docker</span> image inspect redis:latest
+</code></pre></div><p>Docker镜像都只是只读的，当容器启动时，一个新的可写层被加载到镜像顶部</p> <p>pull下来的是无法改变的，run起来相当于新加了一层</p> <h2 id="commit镜像"><a href="#commit镜像" class="header-anchor">#</a> Commit镜像</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> commit 提交容器成为一个新的副本
+<span class="token function">docker</span> commit <span class="token parameter variable">-m</span><span class="token operator">=</span><span class="token string">&quot;提交的描述信息&quot;</span> <span class="token parameter variable">-a</span><span class="token operator">=</span><span class="token string">&quot;作者&quot;</span> 容器id 目标镜像名 :<span class="token punctuation">[</span>tag<span class="token punctuation">]</span>
+<span class="token function">docker</span> run <span class="token parameter variable">-it</span> <span class="token parameter variable">-p</span> <span class="token number">8080</span>:8080 tomcat
+<span class="token function">docker</span> <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> 容器id /bin/bash
+</code></pre></div><h2 id="容器数据卷"><a href="#容器数据卷" class="header-anchor">#</a> 容器数据卷</h2> <p>数据可以持久化，删除容器，相当于删库跑路，MySQL 的数据可以存到本地</p> <p>容器之间可以数据共享</p> <p>目录的挂载到linux上面</p> <ol><li>命令</li></ol> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> run <span class="token parameter variable">-it</span> <span class="token parameter variable">-v</span> 主机目录，容器内目录 centos /bin/bash
+<span class="token function">docker</span> inspect 容器id
+Mounts 挂载   Source 主机
+Destination   <span class="token function">docker</span> 容器内地址
+</code></pre></div><h2 id="mysql同步数据"><a href="#mysql同步数据" class="header-anchor">#</a> Mysql同步数据</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> pull mysql:5.7
+// 需要配置密码
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-p</span> <span class="token number">3310</span>:3306 <span class="token parameter variable">-v</span> /home/mysql/conf:/etc/mysql/conf <span class="token parameter variable">-v</span> /home/mysql/data:/var/lib/mysql <span class="token parameter variable">-e</span> <span class="token assign-left variable">MYSQL_ROOT_PASSWORD</span><span class="token operator">=</span><span class="token number">123456</span> <span class="token parameter variable">--name</span> mysql01 mysql:5.7
+<span class="token function">docker</span> <span class="token function">rm</span> <span class="token parameter variable">-f</span> mysql01 // 删除容器  数据不会丢失
+</code></pre></div><h2 id="具名挂载和匿名挂载"><a href="#具名挂载和匿名挂载" class="header-anchor">#</a> 具名挂载和匿名挂载</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-p</span> <span class="token parameter variable">--name</span> nginx01 <span class="token parameter variable">-v</span> /etc/nginx nginx// 匿名 只有容器内路径
+<span class="token function">docker</span> volume <span class="token parameter variable">--help</span> // 查看卷帮助文档
+<span class="token function">docker</span> volume ls// 查看所有的卷情况
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-P</span> <span class="token parameter variable">--name</span> nginx02 <span class="token parameter variable">-v</span> juming-nginx:/etc/nginx:ro nginx 具名挂载
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-P</span> <span class="token parameter variable">--name</span> nginx02 <span class="token parameter variable">-v</span> juming-nginx:/etc/nginx:rw nginx 具名挂载
+ro 只读 只要看见就只能通过宿主机操作
+rw 可读可写
+<span class="token function">docker</span> volume inspect juming-nginx // 查看具体位置
+</code></pre></div><p><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1708842341514-d93dc5e9-c146-4cfc-976a-d7b7e771cb07.png" alt=""></p> <h2 id="dockerfile"><a href="#dockerfile" class="header-anchor">#</a> Dockerfile</h2> <p>用来构建docker 镜像的构建文件！命令脚本</p> <p>vim dockerfile1</p> <div class="language-shell extra-class"><pre class="language-shell"><code>FROM centos
+VOLUMN <span class="token punctuation">[</span><span class="token string">&quot;volume01&quot;</span>,<span class="token string">&quot;volume01&quot;</span><span class="token punctuation">]</span>
+CMD <span class="token builtin class-name">echo</span> <span class="token string">&quot;----end----&quot;</span>
+CMD /bin/bash
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> build <span class="token parameter variable">-f</span> /home/docker-test-volumn/dockerfile1 <span class="token parameter variable">-t</span> kuangshen/centos:1.0 <span class="token builtin class-name">.</span>
+<span class="token function">docker</span> run <span class="token parameter variable">-it</span> 容器id /bin/bash
+<span class="token function">docker</span> inspect 容器id
+</code></pre></div><h2 id="数据卷容器"><a href="#数据卷容器" class="header-anchor">#</a> 数据卷容器</h2> <p>两个mysql同步数据</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> run <span class="token parameter variable">-it</span> <span class="token parameter variable">--name</span> docker01 kuangshen/centos:1.0
+<span class="token function">docker</span> run <span class="token parameter variable">-it</span> <span class="token parameter variable">--name</span> docker02 --volumes-from docker01 kuangshen/centos:1.0
+docker01 同步 docker02
+引用宿主机的地址，同一个目录
+数据卷的生命周期一直持续到没有容器使用为止
+</code></pre></div><h2 id="dockerfile-构建过程"><a href="#dockerfile-构建过程" class="header-anchor">#</a> DockerFile 构建过程</h2> <p>官方镜像都是基础包，很多功能都没有</p> <p>基础知识</p> <ol><li>每个保留关键字必须大写</li> <li>指令从上到下执行</li> <li><h1 id="表示注释"><a href="#表示注释" class="header-anchor">#</a> 表示注释</h1></li> <li>每一个指令都会创建提交一个新的镜像层，并提交</li> <li><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1708872856087-033a3838-51ca-4535-8993-001b100a5d7a.png" alt=""></li></ol> <p>dockerFile 是面向开发的，我们以后要发布项目，做镜像，就需要编写dockerFile文件，这个文件非常简单</p> <p>DockerFile： 构建文件，定义了一切的步骤，源代码</p> <p>DockerImages：通过DockerFile构建生成的镜像，最终发布和运行的产品！</p> <p>Docker容器： 容器就是镜像运行起来提供服务器</p> <div class="language-shell extra-class"><pre class="language-shell"><code>FROM   <span class="token comment"># 基础镜像，一起从这里开始构建</span>
+MAINTAINER <span class="token comment"># 镜像是谁写的 姓名+ 邮箱</span>
+RUN <span class="token comment"># 镜像构建的时候需要运行的命令</span>
+ADD <span class="token comment"># 步骤，tomcat镜像，tomcat的压缩包</span>
+WORKDIR <span class="token comment"># 镜像的工作目录</span>
+VOLUME <span class="token comment"># 设置卷，挂载的主机目录</span>
+EXPOSE <span class="token comment"># 暴漏端口</span>
+CMD <span class="token comment"># 指定这个容器启动的时候要运行的命令 只有最后一个会生效，可被替代</span>
+ENTRYPOINT <span class="token comment"># 指定这个容器启动的时候要运行的命令 可以追加命令</span>
+ONBUILD <span class="token comment"># 当构建一个被继承DockerFile 这个时候就会运行ONBUILD指令 触发指令</span>
+COPY <span class="token comment"># 类似ADD 将文件拷贝到镜像中</span>
+ENV <span class="token comment"># 构建的时候设置环境变量</span>
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code>FROM centos:centos7
+MAINTAINER huminghao<span class="token operator">&lt;</span><span class="token number">565105438</span>@qq.com<span class="token operator">&gt;</span>
+ENV MYPATH /user/local
+WORKDIR <span class="token variable">$MYPATH</span>
+RUN yum <span class="token parameter variable">-y</span> <span class="token function">install</span> <span class="token function">vim</span>
+RUN yum <span class="token parameter variable">-y</span> <span class="token function">install</span> net-tools
+
+EXPOSE <span class="token number">80</span>
+
+CMD <span class="token builtin class-name">echo</span> <span class="token variable">$MYPATH</span>
+CMD <span class="token builtin class-name">echo</span> <span class="token string">&quot;--end--&quot;</span>
+CMD /bin/bash
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> build <span class="token parameter variable">-f</span> mydockerfile-centos <span class="token parameter variable">-t</span> mycentos:0.1 <span class="token builtin class-name">.</span>
+<span class="token function">docker</span> <span class="token function">history</span> 容器id // 查看构建历史
+</code></pre></div><h2 id="cmd-和-entrypoint"><a href="#cmd-和-entrypoint" class="header-anchor">#</a> CMD 和 ENTRYPOINT</h2> <div class="language-shell extra-class"><pre class="language-shell"><code>FROM centos
+CMD <span class="token punctuation">[</span><span class="token string">&quot;ls&quot;</span>,<span class="token string">&quot;-a&quot;</span><span class="token punctuation">]</span>
+<span class="token function">docker</span> run 容器id <span class="token parameter variable">-l</span> 报错  <span class="token parameter variable">-l</span> 替换了 CMD 的命令
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code>FROM centos
+ENTRYPOINT <span class="token punctuation">[</span><span class="token string">&quot;ls&quot;</span>,<span class="token string">&quot;-a&quot;</span><span class="token punctuation">]</span>
+<span class="token function">docker</span> build <span class="token parameter variable">-f</span> docker文件名 <span class="token parameter variable">-t</span> 镜像名 <span class="token builtin class-name">.</span>
+<span class="token function">docker</span> run 容器id <span class="token parameter variable">-l</span> 直接拼接在后面 ls-al
+</code></pre></div><h2 id="tomcat-镜像"><a href="#tomcat-镜像" class="header-anchor">#</a> Tomcat 镜像</h2> <ol><li>准备镜像文件JDK，Tomcat</li> <li>编写dockerFile 文件</li></ol> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">touch</span> readme.txt
+<span class="token function">vim</span> Dockerfile
+
+FROM centos
+MAINTAINER huminghao<span class="token operator">&lt;</span><span class="token number">565105438</span>@qq.com<span class="token operator">&gt;</span>
+
+COPY readme.txt /usr/local/readme.txt
+// 自动解压
+ADD jdk-8ul1-linux-x64.tar.gz /usr/local/
+ADD apache-tomcat-9.0.22.tar.gz /usr/local/
+
+RUN yum <span class="token parameter variable">-y</span> <span class="token function">install</span> <span class="token function">vim</span>
+ENV MYPATH /usr/local/
+WORK <span class="token variable">$MYPATH</span>
+
+ENV JAVA_HOME /usr/local/jdk1.8.0_11
+ENV CLASSPATH <span class="token variable">$JAVA_HOME</span>/lib/dt.jar:<span class="token variable">$JAVA_HOME</span>/lib/tools.jar
+ENV CATALINA_HOME /usr/local/apache-tomcat-9.0.22
+ENV CATALINA_BASH /usr/local/apache-tomcat-9.0.22
+ENV <span class="token environment constant">PATH</span> <span class="token environment constant">$PATH</span><span class="token builtin class-name">:</span><span class="token variable">$JAVA_HOME</span>/bin:<span class="token variable">$CATALINA_HOME</span>/lib:<span class="token variable">$CATALINA_HOME</span>/bin
+
+EXPOSE <span class="token number">8080</span>
+
+CMD /usr/local/apache-tomcat-9.0.22/bin/startup.sh <span class="token operator">&amp;&amp;</span> <span class="token function">tail</span> <span class="token parameter variable">-F</span> /usr/local/apache-tomcat-9.0.22/bin/logs/catalina.out
+</code></pre></div><p>Dockerfile 不需要-f 去指定就能找到</p> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> build <span class="token parameter variable">-t</span> diytomcat <span class="token builtin class-name">.</span>
+// 启动镜像
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-p</span> <span class="token number">9090</span>:8080 <span class="token parameter variable">--name</span> haohaotomcat <span class="token parameter variable">-v</span> 宿主机挂载路径:容器路径 diytomcat
+// 一个web.xml 和jsp 即可
+</code></pre></div><h2 id="发布自己的镜像"><a href="#发布自己的镜像" class="header-anchor">#</a> 发布自己的镜像</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token number">1</span>. 注册账户
+<span class="token number">2</span>. 确定账号可以登录
+<span class="token number">3</span>. 在我们服务器上提交镜像
+<span class="token function">docker</span> login <span class="token parameter variable">--help</span>
+<span class="token function">docker</span> login <span class="token parameter variable">-u</span> huminghao
+Password：密码
+<span class="token function">docker</span> push 镜像名
+<span class="token function">docker</span> tag 容器id 更改的名
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code><span class="token number">1</span>.登录阿里云
+<span class="token number">2</span>. 找到容器镜像服务
+<span class="token number">3</span>. 创建命名空间
+<span class="token number">4</span>。创建镜像仓库
+<span class="token number">5</span>. 浏览
+</code></pre></div><p><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1708962929515-94d399e5-c53a-4ef2-be79-48e28b1d0a2f.png" alt=""></p> <p><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1708963158030-9da9d371-45ad-42bf-9914-6330fab8587e.png" alt=""></p> <h2 id="docker网络"><a href="#docker网络" class="header-anchor">#</a> Docker网络</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> <span class="token function">rm</span> <span class="token parameter variable">-f</span> <span class="token variable"><span class="token variable">$(</span><span class="token function">docker</span> <span class="token function">ps</span> <span class="token parameter variable">-aq</span><span class="token variable">)</span></span>
+// 清除镜像
+<span class="token function">docker</span> rmi <span class="token parameter variable">-f</span> <span class="token variable"><span class="token variable">$(</span><span class="token function">docker</span> images <span class="token parameter variable">-aq</span><span class="token variable">)</span></span>
+</code></pre></div><p><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1709096057595-858a429c-3e05-412e-bf5c-2229962cebce.png" alt=""></p> <p>eth0 阿里云内网地址</p> <p>docker0 内网地址</p> <p>lo 内网回环地址</p> <div class="language-shell extra-class"><pre class="language-shell"><code>// 运行容器
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-P</span> <span class="token parameter variable">--name</span> tomcat01 tomcat
+// <span class="token function">ip</span> addr  eth0 <span class="token function">docker</span> 分配的地址
+<span class="token function">docker</span> <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> tomcat01 <span class="token function">ip</span> addr
+// linux 能 <span class="token function">ping</span> 通容器吗？可以
+<span class="token function">ping</span> <span class="token function">docker</span> <span class="token function">ip</span> 地址
+// 我们每启动一个docker 容器，docker 就会给docker容器分配一个ip，我们只要安装了docker，就会有一个网卡
+docker0 桥接模式，使用的是evth-pair 技术
+
+一对一对的网卡 就是evth-pair 技术
+虚拟设备接口，一段连着协议，一段彼此相连
+evth-pair 充当桥梁
+openSTack  Docker，OVS 连接都是使用 evth-pair连接
+
+两个docker容器 可以ping 通  最多65535
+
+docker中所有的网络接口都是虚拟的，转发快
+</code></pre></div><p><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1709096570074-fb871f72-0dea-431e-8c42-03a9a73ad007.png" alt=""><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1709096991107-de1d2020-2225-4094-b847-afa34587d405.png" alt=""></p> <p><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1709097028745-c1a76077-5fe2-47e2-babf-b1fc26c13ff0.png" alt=""></p> <p><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1709097191577-af2ecad8-8b3b-47c8-bea9-66222d5cfd5f.png" alt=""> 16 表示剩多少    evth-pair</p> <p><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1709097284474-81fee803-d76e-42de-a44d-7b9f49140a2b.png" alt=""></p> <h2 id="link"><a href="#link" class="header-anchor">#</a> --link</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-P</span> <span class="token parameter variable">--name</span> tomcat03 <span class="token parameter variable">--link</span> tomcat02 tomcat
+反向不能ping 通
+<span class="token function">docker</span> network <span class="token function">ls</span>
+<span class="token function">docker</span> network inspect 容器id
+<span class="token function">docker</span> <span class="token builtin class-name">exec</span> <span class="token parameter variable">-it</span> tomcat03 <span class="token function">cat</span> /etc/hosts
+<span class="token parameter variable">--link</span>  就是在hosts配置中增加了一个映射
+</code></pre></div><p><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1709122101119-dd062850-c08b-4bf9-913f-a596298ab9fd.png" alt=""></p> <h2 id="自定义网络-推荐使用"><a href="#自定义网络-推荐使用" class="header-anchor">#</a> 自定义网络（推荐使用）</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> network <span class="token function">ls</span> // 查看所有的docker 网络
+<span class="token number">1</span>.桥接模式 bridge
+<span class="token number">2</span>.不配置网络 none
+<span class="token number">3</span>.和宿主机共享网络 <span class="token function">host</span>
+<span class="token number">4</span>.容器网络互通 contatiner
+
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-P</span> <span class="token parameter variable">--name</span> tomcat01 <span class="token parameter variable">--net</span> bridge tomcat// 默认启动
+
+docker0 默认，域名不能访问
+
+<span class="token function">docker</span> network create <span class="token parameter variable">--driver</span> bridge <span class="token parameter variable">--subnet</span> <span class="token number">192.168</span>.0.0/16 <span class="token parameter variable">--gateway</span> <span class="token number">192.168</span>.0.1 mynet
+
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-P</span> <span class="token parameter variable">--name</span> tomcat01 <span class="token parameter variable">--net</span> mynet tomcat// 自己搭建的
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-P</span> <span class="token parameter variable">--name</span> tomcat02 <span class="token parameter variable">--net</span> mynet tomcat// 自己搭建的
+修复了docker0的缺点，可以通过名称去ping
+
+不同的集群使用不同的网络，保证集群健康
+</code></pre></div><h2 id="网络打通"><a href="#网络打通" class="header-anchor">#</a> 网络打通</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> network connect  mynet tomcat01
+</code></pre></div><h2 id="redis-集群"><a href="#redis-集群" class="header-anchor">#</a> redis 集群</h2> <div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> network create redis <span class="token parameter variable">--subnet</span> <span class="token number">172.38</span>.0.0/16
+
+
+<span class="token keyword">for</span> <span class="token for-or-select variable">port</span> <span class="token keyword">in</span> <span class="token variable"><span class="token variable">$(</span><span class="token function">seq</span> <span class="token number">1</span> <span class="token number">6</span><span class="token variable">)</span></span><span class="token punctuation">;</span> <span class="token punctuation">\</span>
+<span class="token keyword">do</span> <span class="token punctuation">\</span>
+<span class="token function">mkdir</span> <span class="token parameter variable">-p</span> /mydata/redis/node-<span class="token variable">${port}</span>/conf
+<span class="token function">touch</span> /mydata/redis/node-<span class="token variable">${port}</span>/conf/redis.conf
+<span class="token function">cat</span> <span class="token operator">&lt;&lt;</span> <span class="token string">EOF<span class="token bash punctuation"> <span class="token operator">&gt;</span>/mydata/redis/node-<span class="token variable">${port}</span>/conf/redis.conf</span>
+port 6379 
+bind 0.0.0.0
+cluster-enabled yes 
+cluster-config-file nodes.conf
+cluster-node-timeout 5000
+cluster-announce-ip 172.38.0.1<span class="token variable">${port}</span>
+cluster-announce-port 6379
+cluster-announce-bus-port 16379
+appendonly yes
+EOF</span>
+
+<span class="token function">docker</span> run <span class="token parameter variable">-p</span> <span class="token number">637</span><span class="token variable">${port}</span>:6379 <span class="token parameter variable">-p</span> <span class="token number">1637</span><span class="token variable">${port}</span>:16379 <span class="token parameter variable">--name</span> redis-<span class="token variable">${port}</span> <span class="token punctuation">\</span>
+<span class="token parameter variable">-v</span> /mydata/redis/node-<span class="token variable">${port}</span>/data:/data <span class="token punctuation">\</span>
+<span class="token parameter variable">-v</span> /mydata/redis/node-<span class="token variable">${port}</span>/conf/redis.conf:/etc/redis/redis.conf <span class="token punctuation">\</span>
+<span class="token parameter variable">-d</span> <span class="token parameter variable">--net</span> redis <span class="token parameter variable">--ip</span> <span class="token number">172.38</span>.0.1<span class="token variable">${port}</span> redis:5.0.9-alpine3.11 redis-server /etc/redis/redis.conf
+<span class="token keyword">done</span>
+
+redis-cli <span class="token parameter variable">--cluster</span> create <span class="token number">172.38</span>.0.11:6379 <span class="token number">172.38</span>.0.12:6379 <span class="token number">172.38</span>.0.13:6379 <span class="token number">172.38</span>.0.14:6379 <span class="token number">172.38</span>.0.15:6379 <span class="token number">172.38</span>.0.16:6379 --cluster-replicas <span class="token number">1</span>
+redis-cli <span class="token parameter variable">-c</span>
+
+<span class="token builtin class-name">set</span> a b
+
+get a
+
+</code></pre></div><p><img src="https://cdn.nlark.com/yuque/0/2024/png/33708367/1709134118040-267bd7b3-984a-4e17-9f49-d1443fc8ef5d.png" alt=""></p> <div class="language-shell extra-class"><pre class="language-shell"><code>FROM java:8
+COPY *.jar /app.jar
+CMD  <span class="token punctuation">[</span><span class="token string">&quot;--server.port=8080&quot;</span><span class="token punctuation">]</span>
+EXPOSE <span class="token number">8080</span>
+ENTRYPOINT  <span class="token punctuation">[</span><span class="token string">&quot;java&quot;</span>,<span class="token string">&quot;-jar&quot;</span>,<span class="token string">&quot;/app.jar&quot;</span><span class="token punctuation">]</span>
+</code></pre></div><div class="language-shell extra-class"><pre class="language-shell"><code><span class="token function">docker</span> build <span class="token parameter variable">-t</span> 镜像名 <span class="token builtin class-name">.</span>
+<span class="token function">docker</span> run <span class="token parameter variable">-d</span> <span class="token parameter variable">-P</span> <span class="token parameter variable">--name</span> 容器名 镜像名
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!---->  <!----></main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.c2492ba0.js" defer></script><script src="/assets/js/7.6855d7f5.js" defer></script><script src="/assets/js/1.3a8374e6.js" defer></script><script src="/assets/js/40.aba65f1e.js" defer></script><script src="/assets/js/22.15b12c38.js" defer></script>
+  </body>
+</html>
