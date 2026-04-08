@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "../.vuepress/public/assets/${noteFileName}",
+  "attachmentFolderPath": "./assets/${noteFileName}",
   "attachmentRenameMode": "All",
   "collectAttachmentUsedByMultipleNotesMode": "Skip",
   "collectedAttachmentFileName": "",
