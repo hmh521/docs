@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "docs/about/assets/about/file-20260408144532444.png"
+                "file": "docs/about/assets/about/file-20260408144725806.png"
               },
               "icon": "lucide-image",
-              "title": "file-20260408144532444"
+              "title": "file-20260408144725806"
             }
           }
         ]
@@ -183,12 +183,13 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "cf0712b2ce104137",
+  "active": "16eca1f7ed5df29e",
   "lastOpenFiles": [
     "docs/about/about.md",
-    "docs/about/assets/about/file-20260408144532444.png",
+    "docs/about/assets/about/file-20260408144725806.png",
     "docs/about/assets/about",
     "docs/about/assets",
+    "docs/about/assets/about/file-20260408144532444.png",
     "docs/about/assets/about/file-20260408144356897.png",
     "docs/about/assets/about/file-20260408144000464.png",
     "docs/about/assets/about/file-20260408143631172.png",
