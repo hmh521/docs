@@ -11,12 +11,14 @@
             "id": "cf0712b2ce104137",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "docs/about/assets/about/file-20260408151109909.png"
+                "file": "docs/about/about.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "lucide-image",
-              "title": "file-20260408151109909"
+              "icon": "lucide-file",
+              "title": "about"
             }
           }
         ]
@@ -185,10 +187,12 @@
   },
   "active": "cf0712b2ce104137",
   "lastOpenFiles": [
+    "docs/about/assets/about/file-20260408151702610.png",
+    "docs/about/assets/about/file-20260408151626238.png",
     "docs/about/about.md",
-    "docs/about/assets/about/file-20260408151109909.png",
     "docs/about/assets/about",
     "docs/about/assets",
+    "docs/about/assets/about/file-20260408151109909.png",
     "docs/backend/JavaSE/README.md",
     "docs/about/assets/about/file-20260408144840278.png",
     "docs/virtualMachine/jvm/README.md",
@@ -200,7 +204,6 @@
     "docs/about/assets/about/file-20260408142820275.png",
     "docs/frontend/ES6/README.md",
     "docs/about/assets/about/file-20260408142335575.png",
-    "docs/about/assets/about/file-20260408140711159.png",
     "docs/devops/docker/Readme.md",
     "docs/database/mysql/Readme.md",
     "README.md",
