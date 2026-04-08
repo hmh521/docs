@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "docs/about/assets/about/file-20260408144725806.png"
+                "file": "docs/about/assets/about/file-20260408144840278.png"
               },
               "icon": "lucide-image",
-              "title": "file-20260408144725806"
+              "title": "file-20260408144840278"
             }
           }
         ]
@@ -183,9 +183,10 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "16eca1f7ed5df29e",
+  "active": "cf0712b2ce104137",
   "lastOpenFiles": [
     "docs/about/about.md",
+    "docs/about/assets/about/file-20260408144840278.png",
     "docs/about/assets/about/file-20260408144725806.png",
     "docs/about/assets/about",
     "docs/about/assets",
@@ -203,7 +204,6 @@
     "README.md",
     "docs/README.md",
     "Pasted image 20260408095526.png",
-    "Pasted image 20260408095157.png",
     "docs/commonproblem/git/README.md"
   ]
 }
