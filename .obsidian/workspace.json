@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "docs/about/about.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
@@ -186,11 +186,11 @@
   },
   "active": "cf0712b2ce104137",
   "lastOpenFiles": [
+    "README.md",
+    "docs/about/about.md",
     "docs/README.md",
     "Pasted image 20260408095526.png",
-    "docs/about/about.md",
     "Pasted image 20260408095157.png",
-    "README.md",
     "docs/commonproblem/git/README.md",
     "docs/backend/JavaSE/README.md"
   ]
