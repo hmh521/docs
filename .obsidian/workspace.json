@@ -15,7 +15,7 @@
               "state": {
                 "file": "docs/about/about.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "about"
@@ -187,6 +187,7 @@
   },
   "active": "cf0712b2ce104137",
   "lastOpenFiles": [
+    "docs/backend/JavaSE/README.md",
     "docs/about/assets/about/file-20260408144840278.png",
     "docs/about/about.md",
     "docs/virtualMachine/jvm/README.md",
@@ -199,7 +200,6 @@
     "docs/about/assets/about/file-20260408143631172.png",
     "docs/about/assets/about/file-20260408142820275.png",
     "docs/frontend/ES6/README.md",
-    "docs/backend/JavaSE/README.md",
     "docs/about/assets/about/file-20260408142335575.png",
     "docs/about/assets/about/file-20260408140711159.png",
     "docs/devops/docker/Readme.md",
