@@ -1,0 +1,8 @@
+{
+    "showingRules": [
+        "+/",
+        "-/\\.git(?:\\/|$)/u",
+        "-/\\.venv(?:\\/|$)/u",
+        "-/\\.aDotFolderWithManyFiles(?:\\/|$)/u"
+    ]
+}
