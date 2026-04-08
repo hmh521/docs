@@ -11,14 +11,12 @@
             "id": "cf0712b2ce104137",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "docs/about/about.md",
-                "mode": "source",
-                "source": false
+                "file": "docs/.vuepress/public/assets/about/file-20260408213912181.png"
               },
-              "icon": "lucide-file",
-              "title": "about"
+              "icon": "lucide-image",
+              "title": "file-20260408213912181"
             }
           }
         ]
@@ -187,6 +185,11 @@
   },
   "active": "cf0712b2ce104137",
   "lastOpenFiles": [
+    "docs/about/about.md",
+    "docs/.vuepress/public/assets/about/file-20260408213912181.png",
+    "docs/about/assets/about/file-20260408205650153.png",
+    "../.vuepress/public/assets/about/file-20260408205650153.png.md",
+    "../.vuepress/public/assets/about",
     ".obsidian/plugins/obsidian-enhancing-export/textemplate/neurips.tex",
     ".obsidian/plugins/obsidian-enhancing-export/textemplate/dissertation.tex",
     ".obsidian/plugins/obsidian-enhancing-export/textemplate/neurips.sty",
@@ -196,10 +199,6 @@
     ".obsidian/plugins/obsidian-enhancing-export/lua/markdown.lua",
     ".obsidian/plugins/obsidian-enhancing-export/lua/polyfill.lua",
     ".obsidian/plugins/obsidian-enhancing-export/lua/newline_to_para.lua",
-    ".obsidian/plugins/obsidian-enhancing-export/lua/citefilter.lua",
-    ".obsidian/plugins/obsidian-enhancing-export/lua/math_block.lua",
-    "docs/about/about.md",
-    "docs/about/assets/about/file-20260408205650153.png",
     "docs/about/assets/about/file-20260408152503623.png",
     "docs/about/assets/about/file-20260408151702610.png",
     "docs/about/assets/about/file-20260408151626238.png",
@@ -210,7 +209,6 @@
     "docs/about/assets/about/file-20260408144725806.png",
     "docs/about/assets/about/file-20260408144532444.png",
     "docs/about/assets/about/file-20260408144356897.png",
-    "docs/about/assets/about/file-20260408144000464.png",
     "docs/frontend/ES6/README.md",
     "docs/devops/docker/Readme.md",
     "docs/database/mysql/Readme.md",
