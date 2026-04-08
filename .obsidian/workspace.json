@@ -11,12 +11,14 @@
             "id": "cf0712b2ce104137",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "docs/about/assets/about/file-20260408142820275.png"
+                "file": "docs/about/about.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "file-20260408142820275"
+              "icon": "lucide-file",
+              "title": "about"
             }
           }
         ]
@@ -184,8 +186,8 @@
   },
   "active": "cf0712b2ce104137",
   "lastOpenFiles": [
-    "docs/about/about.md",
     "docs/about/assets/about/file-20260408142820275.png",
+    "docs/about/about.md",
     "docs/about/assets/about",
     "docs/about/assets",
     "docs/frontend/ES6/README.md",
