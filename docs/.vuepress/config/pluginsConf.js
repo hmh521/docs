@@ -1,6 +1,38 @@
 const moment = require("moment");
 const secret = require("./secret.js");
+const fs = require('fs-extra')
+const path = require('path')
 module.exports = [
+     [
+    (options, ctx) => ({
+      name: 'copy-assets-plugin',
+
+      async ready() {
+        const docsRoot = path.resolve(__dirname, '../') // docs
+        const publicRoot = path.resolve(__dirname, './public/assets')
+
+        try {
+          await fs.ensureDir(publicRoot)
+
+          const dirs = fs.readdirSync(docsRoot)
+
+          for (const dir of dirs) {
+            // ⭐ 关键：多加一层 about
+            const source = path.join(docsRoot, dir, 'assets', dir)
+            const target = path.join(publicRoot, dir)
+
+            if (fs.existsSync(source)) {
+              await fs.copy(source, target, { overwrite: true })
+              console.log(`✅ 已复制: ${dir}/assets/${dir} → public/assets/${dir}`)
+            }
+          }
+
+        } catch (err) {
+          console.error('❌ assets 复制失败', err)
+        }
+      }
+    })
+  ],
     [
         '@vuepress/last-updated',
         {
