@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/about/about.md",
+                "file": "docs/devops/docker/Readme.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "Readme"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/about/about.md",
+                "file": "docs/devops/docker/Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "about 的反向链接列表"
+              "title": "Readme 的反向链接列表"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/about/about.md",
+                "file": "docs/devops/docker/Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "about 的出链列表"
+              "title": "Readme 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/about/about.md",
+                "file": "docs/devops/docker/Readme.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "about 的大纲"
+              "title": "Readme 的大纲"
             }
           }
         ]
@@ -186,12 +186,13 @@
   },
   "active": "cf0712b2ce104137",
   "lastOpenFiles": [
-    "README.md",
+    "docs/database/mysql/Readme.md",
+    "docs/backend/JavaSE/README.md",
     "docs/about/about.md",
+    "README.md",
     "docs/README.md",
     "Pasted image 20260408095526.png",
     "Pasted image 20260408095157.png",
-    "docs/commonproblem/git/README.md",
-    "docs/backend/JavaSE/README.md"
+    "docs/commonproblem/git/README.md"
   ]
 }
