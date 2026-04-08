@@ -11,14 +11,12 @@
             "id": "cf0712b2ce104137",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "docs/about/about.md",
-                "mode": "source",
-                "source": false
+                "file": "docs/about/assets/about/file-20260408144532444.png"
               },
-              "icon": "lucide-file",
-              "title": "about"
+              "icon": "lucide-image",
+              "title": "file-20260408144532444"
             }
           }
         ]
@@ -187,11 +185,12 @@
   },
   "active": "cf0712b2ce104137",
   "lastOpenFiles": [
-    "docs/about/assets/about/file-20260408144356897.png",
-    "docs/about/assets/about/file-20260408144000464.png",
     "docs/about/about.md",
+    "docs/about/assets/about/file-20260408144532444.png",
     "docs/about/assets/about",
     "docs/about/assets",
+    "docs/about/assets/about/file-20260408144356897.png",
+    "docs/about/assets/about/file-20260408144000464.png",
     "docs/about/assets/about/file-20260408143631172.png",
     "docs/about/assets/about/file-20260408142820275.png",
     "docs/frontend/ES6/README.md",
