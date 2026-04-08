@@ -181,16 +181,18 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "16eca1f7ed5df29e",
+  "active": "cf0712b2ce104137",
   "lastOpenFiles": [
-    "docs/about/assets/about/file-20260408143631172.png",
+    "docs/about/about.md",
+    "docs/about/assets/about/file-20260408144000464.png",
     "docs/about/assets/about",
     "docs/about/assets",
+    "docs/about/assets/about/file-20260408143631172.png",
     "docs/about/assets/about/file-20260408142820275.png",
-    "docs/about/about.md",
     "docs/frontend/ES6/README.md",
     "docs/backend/JavaSE/README.md",
     "docs/about/assets/about/file-20260408142335575.png",
