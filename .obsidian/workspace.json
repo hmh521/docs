@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/devops/docker/Readme.md",
+                "file": "docs/about/about.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Readme"
+              "title": "about"
             }
           }
         ]
@@ -186,6 +186,7 @@
   },
   "active": "cf0712b2ce104137",
   "lastOpenFiles": [
+    "docs/devops/docker/Readme.md",
     "docs/database/mysql/Readme.md",
     "docs/backend/JavaSE/README.md",
     "docs/about/about.md",
