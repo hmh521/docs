@@ -15,7 +15,7 @@
               "state": {
                 "file": "docs/about/about.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "about"
@@ -184,12 +184,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cf0712b2ce104137",
+  "active": "16eca1f7ed5df29e",
   "lastOpenFiles": [
+    "docs/about/assets/about/file-20260408140711159.png",
+    "docs/about/about.md",
+    "docs/about/assets/about",
+    "docs/about/assets",
     "docs/devops/docker/Readme.md",
     "docs/database/mysql/Readme.md",
     "docs/backend/JavaSE/README.md",
-    "docs/about/about.md",
     "README.md",
     "docs/README.md",
     "Pasted image 20260408095526.png",
