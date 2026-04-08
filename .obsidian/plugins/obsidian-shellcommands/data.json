@@ -26,7 +26,7 @@
     {
       "id": "ksmgrxyffo",
       "platform_specific_commands": {
-        "default": "mkdir \"F:\\docs\\docs\\docs\\.vuepress\\public\\assets\\${fileDirName}\" 2>nul\nxcopy /E /I /Y \"${fileDir}\\assets\" \"F:\\docs\\docs\\docs\\.vuepress\\public\\assets\\${fileDirName}\\\""
+        "default": ""
       },
       "shells": {},
       "alias": "",

@@ -11,14 +11,12 @@
             "id": "cf0712b2ce104137",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "docs/about/about.md",
-                "mode": "source",
-                "source": true
+                "file": "docs/about/assets/about/file-20260408151109909.png"
               },
-              "icon": "lucide-file",
-              "title": "about"
+              "icon": "lucide-image",
+              "title": "file-20260408151109909"
             }
           }
         ]
@@ -187,13 +185,14 @@
   },
   "active": "cf0712b2ce104137",
   "lastOpenFiles": [
-    "docs/backend/JavaSE/README.md",
-    "docs/about/assets/about/file-20260408144840278.png",
     "docs/about/about.md",
-    "docs/virtualMachine/jvm/README.md",
-    "docs/about/assets/about/file-20260408144725806.png",
+    "docs/about/assets/about/file-20260408151109909.png",
     "docs/about/assets/about",
     "docs/about/assets",
+    "docs/backend/JavaSE/README.md",
+    "docs/about/assets/about/file-20260408144840278.png",
+    "docs/virtualMachine/jvm/README.md",
+    "docs/about/assets/about/file-20260408144725806.png",
     "docs/about/assets/about/file-20260408144532444.png",
     "docs/about/assets/about/file-20260408144356897.png",
     "docs/about/assets/about/file-20260408144000464.png",
@@ -206,7 +205,6 @@
     "docs/database/mysql/Readme.md",
     "README.md",
     "docs/README.md",
-    "Pasted image 20260408095526.png",
     "docs/commonproblem/git/README.md"
   ]
 }

@@ -14,7 +14,7 @@
   "generatedAttachmentFileName": "file-${date:{momentJsFormat:'YYYYMMDDHHmmssSSS'}}",
   "includePaths": [],
   "jpegQuality": 0.8,
-  "markdownUrlFormat": "../.vuepress/public/assets/${noteFileName}/${generatedAttachmentFileName}",
+  "markdownUrlFormat": "assets/${noteFileName}/${generatedAttachmentFileName}",
   "moveAttachmentToProperFolderUsedByMultipleNotesMode": "CopyAll",
   "renamedAttachmentFileName": "",
   "shouldDeleteOrphanAttachments": false,
