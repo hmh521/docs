@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/about/about.md",
+                "file": "docs/frontend/html/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "README"
             }
           }
         ]
@@ -187,6 +187,7 @@
   },
   "active": "cf0712b2ce104137",
   "lastOpenFiles": [
+    "docs/about/about.md",
     "docs/.vuepress/dist/service-worker.js",
     "docs/.vuepress/dist/index.html",
     "docs/.vuepress/dist/virtualMachine/jvm/index.html",
@@ -197,7 +198,6 @@
     "docs/.vuepress/dist/interview/redis/index.html",
     "docs/.vuepress/dist/interview/springcloud/index.html",
     "docs/.vuepress/dist/interview/mybatis/index.html",
-    "docs/.vuepress/dist/interview/spring/index.html",
     "docs/.vuepress/dist/assets/thread/page.png",
     "docs/.vuepress/dist/assets/thread/Monitor.png",
     "docs/.vuepress/dist/assets/thread/threadState.png",
@@ -208,7 +208,6 @@
     "docs/.vuepress/dist/assets/redis/RDB.png",
     "docs/.vuepress/dist/assets/redis/expire.png",
     "docs/.vuepress/dist/assets/redis/bulong.png",
-    "docs/about/about.md",
     "../.vuepress/public/assets/about/file-20260408205650153.png.md",
     "docs/backend/JavaSE/README.md",
     "docs/virtualMachine/jvm/README.md",
