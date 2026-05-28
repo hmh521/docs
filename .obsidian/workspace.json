@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/frontend/html/README.md",
+                "file": "docs/backend/Java8/README.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "README"
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/about/about.md",
+                "file": "docs/backend/Java8/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "about 的反向链接列表"
+              "title": "README 的反向链接列表"
             }
           },
           {
@@ -164,13 +164,25 @@
               "icon": "lucide-list",
               "title": "Readme 的大纲"
             }
+          },
+          {
+            "id": "ef5f6a367d0dad73",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "docs/backend/Java8/README.md"
+              },
+              "icon": "lucide-info",
+              "title": "README的笔记属性"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,8 +199,11 @@
   },
   "active": "7a12dd882ea1f6d3",
   "lastOpenFiles": [
-    "toc.md",
+    "docs/backend/JavaSE/README.md",
+    "docs/backend/Java8/README.md",
+    "docs/backend/Java8",
     "docs/frontend/html/README.md",
+    "toc.md",
     "docs/.vuepress/public/assets/about/background.png",
     "docs/about/about.md",
     "docs/.vuepress/dist/service-worker.js",
@@ -200,7 +215,6 @@
     "docs/.vuepress/dist/interview/thread/index.html",
     "docs/.vuepress/dist/interview/redis/index.html",
     "docs/.vuepress/dist/interview/springcloud/index.html",
-    "docs/.vuepress/dist/interview/mybatis/index.html",
     "docs/.vuepress/dist/assets/thread/page.png",
     "docs/.vuepress/dist/assets/thread/Monitor.png",
     "docs/.vuepress/dist/assets/thread/threadState.png",
@@ -211,7 +225,6 @@
     "docs/.vuepress/dist/assets/redis/RDB.png",
     "docs/.vuepress/dist/assets/redis/expire.png",
     "../.vuepress/public/assets/about/file-20260408205650153.png.md",
-    "docs/backend/JavaSE/README.md",
     "docs/virtualMachine/jvm/README.md",
     "docs/frontend/ES6/README.md",
     "docs/devops/docker/Readme.md",
