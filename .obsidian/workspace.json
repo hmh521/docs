@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -174,7 +176,7 @@
                 "file": "docs/backend/Java8/README.md"
               },
               "icon": "lucide-info",
-              "title": "README的笔记属性"
+              "title": "笔记属性"
             }
           }
         ],
@@ -197,8 +199,9 @@
       "obsidian-shellcommands:Shell commands: Custom variables": false
     }
   },
-  "active": "7a12dd882ea1f6d3",
+  "active": "16eca1f7ed5df29e",
   "lastOpenFiles": [
+    ".obsidian/snippets",
     "docs/backend/JavaSE/README.md",
     "docs/backend/Java8/README.md",
     "docs/backend/Java8",
